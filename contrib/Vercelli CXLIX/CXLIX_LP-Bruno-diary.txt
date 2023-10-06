@@ -1,0 +1,63 @@
+[2023-09]
+
+Note generali di marcatura 
+Fols. 146r-155r
+
+	146r
+
+-	s insular e s long sono molto simili a volte ed è difficile distinguerle (es. abbreviazione 	di "deus" nel manuale Cappelli viene indicata come "ds" e la s è insular // l'abbreviazione
+	di "meus" viene indicata come "ms" e sembra, invece, con s long) 	
+
+
+-	presenza di un segno prima del numero del salmo e come ripresa di alcune righe
+	—> come marcarlo? 
+
+02	glossa "O" in rosso sbiadito
+
+O5 	glossa "O" in rosso
+	<metamark> per ":" che indica aggiunta di alcune lettere alla parola -> distinguere le due 	funzioni: function="insertion" / function="addition"
+
+011	"praesenti" con lettera p e sopra lettera a con segno di vocale lunga sotto
+
+012	"praesenti" abbreviato con <add> di latin small letter a combining macron below ->
+	<w><choice><orig><abbr>p<am><add place="above"><g ref="#amacrbelow"/></add></am>senti</		abbr></orig>
+	<reg><expan>p<ex>rae</ex>senti</expan></reg>
+	</choice>
+	</w>
+
+
+	146v
+
+- 	presenza del numero di fascicolo "XVII" con dei disegni attorno (si ripetono nel corso del 	manoscritto per indicare i numeri degli altri fascicoli -> hotspot function (?)
+
+017	"pauperem" e sopra la seconda "e" c'è la "u" (-> quindi sostituito(?) con pauperum) 
+
+	147r
+
+06	"praeveni" uguale a "praesenti" con aggiunta di "eos" -> <w><choice><orig><abbr>p<am><add 	place="above"><g ref="#amacrbelow"/></add></am>veni<g ref="#slong"/></abbr>eo</orig>
+	<reg><expan>p<ex>rae</ex>veni</expan> eos</reg>
+        </choice>
+	</w>
+
+
+	146v
+
+08	latin small letter i ... combining along s???
+
+
+	149r
+
+02	ampersand+macron
+
+	
+	150v
+
+04	"esto" sostituito con "ero" -> presenti dei puntini sotto
+
+	
+	151r
+	- glossa "locutis" in alto
+
+
+
+
