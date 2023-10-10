@@ -142,7 +142,7 @@
                <mapping type="normalized">t</mapping>
             </char>
             <char xml:id="sup2">
-               <unicodeProp name="Name" value="SUPERSCRIPT TWO"></unicodeProp>
+               <unicodeProp name="Name" value="SUPERSCRIPT TWO"/>
                <mapping subtype="MUFI-PUA" type="codepoint">U+00B2</mapping>
                <mapping type="diplomatic">2</mapping>
             </char>
@@ -324,7 +324,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap">S</hi>ciend<am><g ref="#umacr"/></am></abbr>
-                     <expan>Sciendu<ex>m</ex></expan>
+                     <expan><hi rend="cap">S</hi>ciendu<ex>m</ex></expan>
                   </choice>
                </w>
                <w>e<g ref="#slongtlig"/></w>
@@ -378,7 +378,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap">F</hi>e<am>c</am></abbr>
-                     <expan>Fec<ex>it</ex></expan>
+                     <expan><hi rend="cap">F</hi>ec<ex>it</ex></expan>
                   </choice>
                </w>
                <w>hanc</w>
@@ -552,8 +552,7 @@
                <pc>:</pc>
                <w>
                   <choice>
-                     <abbr><am><g ref="#sinsmacr"
-                           /><!--s insulare, o lunga??--></am></abbr>
+                     <abbr><am><g ref="#sinsmacr"/><!--s insulare, o lunga??--></am></abbr>
                      <expan>D<ex>eu</ex>s</expan>
                   </choice>
                </w>
@@ -680,7 +679,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="x-large red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="x-large red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -1152,7 +1151,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="x-large red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="x-large red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -1278,7 +1277,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">Q</hi>m</abbr>
-                     <expan>Q<ex>uonia</ex>m</expan>
+                     <expan><hi rend="cap red">Q</hi><ex>uonia</ex>m</expan>
                   </choice>
                </w>
                <w>
@@ -1323,7 +1322,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="x-large">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="x-large">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -1440,7 +1439,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="x-large red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="x-large red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -1555,7 +1554,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>Domine<ex>m</ex></expan>
+                     <expan><hi rend="cap red">D</hi>omine<ex>m</ex></expan>
                   </choice>
                </w>
                <w>
@@ -1634,7 +1633,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">Q</hi><am><g ref="#mmacrmed"/></am></abbr>
-                     <expan>Q<ex>uonia</ex>m</expan>
+                     <expan><hi rend="cap red">Q</hi><ex>uonia</ex>m</expan>
                   </choice>
                </w>
                <w>feci<g ref="#slongtlig"/>i</w>
@@ -1814,10 +1813,10 @@
                      <reg>ne obliviscaris</reg>
                   </choice>
                </w>
-               <w>pauper <subst>
+               <w>pauper<subst>
                      <surplus>e</surplus>
                      <add hand="scribe_1" place="above"><c corresp="#u">v</c></add>
-                  </subst> m </w>
+                  </subst>m</w>
                <w>
                   <choice>
                      <orig><pc>infinem</pc></orig>
@@ -2080,7 +2079,7 @@
                <pc>.</pc>
                <w>
                   <choice>
-                     <orig><hi rend="#cap red"></hi>Quitribulantme</orig>
+                     <orig><hi rend="#cap red"/>Quitribulantme</orig>
                      <reg>Qui tribulant me</reg>
                   </choice>
                </w>
@@ -2499,7 +2498,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">Q</hi><am><g ref="#mmacrmed"/></am></abbr>
-                     <expan>Q<ex>uonia</ex>m</expan>
+                     <expan><hi rend="cap red">Q</hi><ex>uonia</ex>m</expan>
                   </choice>
                </w>
                <w>t<g ref="#uacute"/></w>
@@ -2521,7 +2520,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">Q</hi><am><g ref="#mmacrmed"/></am></abbr>
-                     <expan>Q<ex>uonia</ex>m</expan>
+                     <expan><hi rend="cap red">Q</hi><ex>uonia</ex>m</expan>
                   </choice>
                </w>
                <w>tu</w>
@@ -2669,8 +2668,8 @@
                <lb n="14" type="rubric" xml:id="CXLIX_lb_147r_014"/>
                <w>
                   <choice>
-                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -2693,7 +2692,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="cap">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -2749,7 +2748,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap">D</hi><am><g ref="#sinsmacr"/></am></abbr>
-                     <expan>D<ex>eu</ex>s</expan>
+                     <expan><hi rend="cap">D</hi><ex>eu</ex>s</expan>
                   </choice>
                </w>
                <w>
@@ -3107,7 +3106,7 @@
                <w>
                   <choice>
                      <orig><abbr>d<am><g ref="#sins"/></am></abbr></orig>
-                    <reg><expan>D<ex>eu</ex>s</expan></reg>
+                     <reg><expan>D<ex>eu</ex>s</expan></reg>
                   </choice>
                </w>
                <w>
@@ -3271,7 +3270,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">S</hi>ec<am><g ref="#dstrok"/></am>m</abbr>
-                     <expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
+                     <expan><hi rend="cap red">S</hi><ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
                   </choice>
                </w>
                <w>magnam</w>
@@ -3377,7 +3376,8 @@
                <lb n="3" type="rubric" xml:id="CXLIX_lb_147v_03"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">R</hi></add>espiceinme</orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                        >R</hi></add>espiceinme</orig>
                      <reg>Respice in me</reg>
                   </choice>
                </w>
@@ -3529,8 +3529,8 @@
                <label n="25" place="inline"><w>XXV</w></label>
                <w>
                   <choice>
-                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>dilexi</w>
@@ -3994,8 +3994,8 @@
                <pc>.</pc>
                <w>
                   <choice>
-                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -4028,7 +4028,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>ab<g ref="#slongtlig"/>raxi<g ref="#slongtlig"/>i</w>
@@ -4107,7 +4107,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="#cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="#cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -4137,7 +4137,7 @@
                <w>
                   <choice>
                      <orig><hi rend="cap">I</hi>nte<abbr>dn<am><g ref="#emacr"/></am></abbr></orig>
-                     <reg>><hi rend="cap">I</hi>n te <expan>d<ex>omi</ex>ne</expan></reg>
+                     <reg>In te <expan>d<ex>omi</ex>ne</expan></reg>
                   </choice>
                </w>
                <w><g ref="#slong"/>pera<c corresp="#v">u</c>i</w>
@@ -4318,7 +4318,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -4803,8 +4803,9 @@
                <w>me</w> . <lb n="13" type="rubric" xml:id="CXLIX_lb_148r_013"/>
                <w>
                   <choice>
-                     <orig><abbr><add hand="scribe_1" place="margin-left"><hi rend="cap red">A</hi></add><add hand="scribe_1" place="above">p</add><am><g ref="#pmacr"
-                        /></am>hende</abbr></orig>
+                     <orig><abbr><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                              >A</hi></add><add hand="scribe_1" place="above">p</add><am><g
+                                 ref="#pmacr"/></am>hende</abbr></orig>
                      <reg><expan>App<ex>re</ex>hende<ex/></expan></reg>
                   </choice>
                </w>
@@ -4898,7 +4899,8 @@
                <lb n="16" type="rubric" xml:id="CXLIX_lb_148r_016"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">C</hi></add>onfitebortibi</orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                        >C</hi></add>onfitebortibi</orig>
                      <reg>Confitebor tibi</reg>
                   </choice>
                </w>
@@ -5087,8 +5089,8 @@
                <w>
                   <w>
                      <choice>
-                        <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                        <expan>><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
+                        <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                        <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                      </choice>
                   </w>
                </w>
@@ -5214,8 +5216,7 @@
                <w>
                   <orig><hi rend="cap red">P</hi>raetende<abbr>mi<am><g ref="#slong"/></am>c<am><g
                               ref="#dstrok"/></am>m</abbr></orig>
-                  <reg>Praetende
-                           <expan>mis<ex>eri</ex>c<ex>or</ex>d<ex>ia</ex>m</expan></reg>
+                  <reg>Praetende <expan>mis<ex>eri</ex>c<ex>or</ex>d<ex>ia</ex>m</expan></reg>
                </w>
                <w>tuam</w>
                <w>scien <lb n="26" type="rubric" xml:id="CXLIX_lb_148r_026"/> tibu<g ref="#slong"
@@ -5265,8 +5266,8 @@
                <label n="37" place="inline"><w>XXXVII</w></label>
                <w>
                   <choice>
-                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>d<ex>omi</ex>ne</expan>
+                     <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -5455,7 +5456,7 @@
                      <reg>conpl<g ref="#amp"/>a est</reg>
                   </choice>
                </w>
-               <w> in<subst>
+               <w>in<subst>
                      <surplus>n</surplus>
                      <add hand="scribe_1" place="above">l</add>
                   </subst>lu<g ref="#slong"/>ionibu<g ref="#slong"/>
@@ -5830,7 +5831,9 @@
                <lb n="11" type="rubric" xml:id="CXLIX_lb_148v_011"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">E</hi></add>xaudi<abbr>d<am><g ref="#sinsmacr"/></am></abbr></orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                                 >E</hi></add>xaudi<abbr>d<am><g ref="#sinsmacr"
+                        /></am></abbr></orig>
                      <reg>Exaudi <expan>D<ex>eu</ex>s</expan></reg>
                   </choice>
                </w>
@@ -5911,7 +5914,8 @@
                <w>mei</w> . <lb n="13" type="rubric" xml:id="CXLIX_lb_148v_013"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">R</hi></add>emittemihi</orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                        >R</hi></add>emittemihi</orig>
                      <reg>Remitte mihi</reg>
                   </choice>
                </w>
@@ -5944,7 +5948,7 @@
                <w>
                   <choice>
                      <abbr><hi rend="cap">D</hi>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>d<ex>omi</ex>ne</expan>
+                     <expan><hi rend="cap">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -6049,8 +6053,7 @@
                      <expan>sup<ex>er</ex></expan>
                   </choice>
                </w>
-               <w>ca <lb n="17" type="rubric" xml:id="CXLIX_lb_148v_017"/> pillo<g ref="#slong"
-                  /></w>
+               <w>ca<lb n="17" type="rubric" xml:id="CXLIX_lb_148v_017"/>pillo<g ref="#slong"/></w>
                <w>capiti<g ref="#slong"/></w>
                <w>mei</w>
                <w><g ref="#amp"/></w>
@@ -6200,8 +6203,9 @@
                </w> . <lb n="22" type="rubric" xml:id="CXLIX_lb_148v_022"/>
                <w>
                   <choice>
-                     <abbr><add hand="scribe_1" place="margin-left"><hi rend="cap red">D</hi></add>n<am><g ref="#emacr"/></am>e</abbr>
-                     <expan>D<ex>omi</ex>ne</expan>
+                     <abbr><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                              >D</hi></add>n<am><g ref="#emacr"/></am>e</abbr>
+                     <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
                   </choice>
                </w>
                <w>
@@ -6231,11 +6235,17 @@
                      <orig><abbr>su<g ref="pbardes"/></abbr>me</orig>
                      <reg><expan>sup<ex>er</ex></expan> me</reg>
                   </choice>
-               </w> . </p>
+               </w><pc>.</pc>
+            </p>
             <p n="30" xml:id="CXLIX_p_148v_030">
                <lb n="23" type="rubric" xml:id="CXLIX_lb_148v_023"/>
                <label n="41" place="inline"><w>XLI</w></label>
-               <w> Sicutcer<c corresp="#v">u</c>us </w>
+               <w>
+                  <choice>
+                     <orig><hi rend="x-large red">S</hi>icutcer<c corresp="#v">u</c>us</orig>
+                     <reg>Sicut cervus</reg>
+                  </choice>
+               </w>
                <w>de<g ref="#slong"/>iderat</w>
                <w>
                   <choice>
@@ -6424,7 +6434,8 @@
                <lb n="29" type="rubric" xml:id="CXLIX_lb_148v_029"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">C</hi></add>onfitebortibi</orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                        >C</hi></add>onfitebortibi</orig>
                      <reg>Confitebor tibi</reg>
                   </choice>
                </w>
@@ -6545,8 +6556,8 @@
                <lb n="33" type="rubric" xml:id="CXLIX_lb_148v_033"/>
                <w>
                   <choice>
-                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red">E</hi></add>xsurge<abbr>dn<am><g ref="#emacr"
-                        /></am></abbr></orig>
+                     <orig><add hand="scribe_1" place="margin-left"><hi rend="cap red"
+                                 >E</hi></add>xsurge<abbr>dn<am><g ref="#emacr"/></am></abbr></orig>
                      <reg>Exsurge <expan>d<ex>omi</ex>ne</expan></reg>
                   </choice>
                </w>
@@ -6586,13 +6597,15 @@
                </w>
                <w>
                   <choice>
-                     <orig>in<abbr><am><g ref="#slong"/></am><am><g ref="#cogon"/></am><am><g ref="#lbar"/></am>m</abbr></orig>
+                     <orig>in<abbr><am><g ref="#slong"/></am><am><g ref="#cogon"/></am><am><g
+                                 ref="#lbar"/></am>m</abbr></orig>
                      <reg>in <expan>s<ex>ae</ex>c<ex>u</ex>l<ex>u</ex>m</expan></reg>
                   </choice>
                </w>
                <w>
                   <choice>
-                     <orig>in<abbr><am><g ref="#slong"/></am><am><g ref="#cogon"/></am><am><g ref="#lbar"/></am>i</abbr></orig>
+                     <orig>in<abbr><am><g ref="#slong"/></am><am><g ref="#cogon"/></am><am><g
+                                 ref="#lbar"/></am>i</abbr></orig>
                      <reg>in <expan>s<ex>ae</ex>c<ex>u</ex>li</expan></reg>
                   </choice>
                </w>
@@ -6625,7 +6638,8 @@
                <pc>.</pc>
                <w>
                   <choice>
-                     <orig><abbr><hi rend="#cap red">P</hi>rop<am><g ref="#tmacr"/></am>er</abbr>ea</orig>
+                     <orig><abbr><hi rend="#cap red">P</hi>rop<am><g ref="#tmacr"
+                        /></am>er</abbr>ea</orig>
                      <reg><expan>Propt<g ref="#tmacr"/><ex>er</ex></expan> ea</reg>
                   </choice>
                </w>
@@ -6645,20 +6659,23 @@
                <w>tibi</w>
                <w>
                   <choice>
-                     <orig>in<abbr>a<am><g ref="#ampmacr"/></am></abbr>nu<am><g ref="#umacr"/></am></orig>
+                     <orig>in<abbr>a<am><g ref="#ampmacr"/></am></abbr>nu<am><g ref="#umacr"
+                        /></am></orig>
                      <reg>in <expan>aet<ex>er</ex>nu<ex>m</ex></expan></reg>
                   </choice>
                </w>
                <w><g ref="#amp"/></w>
                <w>
                   <choice>
-                     <orig>in<abbr><g ref="#slong"/><am><g ref="#cogon"/></am><am><g ref="#lbar"/></am>m</abbr></orig>
+                     <orig>in<abbr><g ref="#slong"/><am><g ref="#cogon"/></am><am><g ref="#lbar"
+                              /></am>m</abbr></orig>
                      <reg>in <expan>s<ex>ae</ex>c<ex>u</ex>l<ex>u</ex>m</expan></reg>
                   </choice>
                </w>
                <w>
                   <choice>
-                     <orig>in<abbr><g ref="#slong"/><am><g ref="#cogon"/></am><am><g ref="#lbar"/></am>i</abbr></orig>
+                     <orig>in<abbr><g ref="#slong"/><am><g ref="#cogon"/></am><am><g ref="#lbar"
+                              /></am>i</abbr></orig>
                      <reg>in <expan>s<ex>ae</ex>c<ex>u</ex>li</expan></reg>
                   </choice>
                </w>
@@ -6672,7 +6689,8 @@
                </w>
                <w>
                   <choice>
-                     <abbr>mi<g ref="#slong"/>c<am><g ref="#dstrok"/></am>i<am><g ref="#amacr"/></am></abbr>
+                     <abbr>mi<g ref="#slong"/>c<am><g ref="#dstrok"/></am>i<am><g ref="#amacr"
+                           /></am></abbr>
                      <expan>mis<ex>eri</ex>c<ex>or</ex>dia<ex>m</ex></expan>
                   </choice>
                </w>
@@ -6694,7 +6712,8 @@
                <pc>.</pc>
                <w>
                   <choice>
-                     <orig><abbr><hi rend="cap red">S</hi> c<am><g ref="#dstrok"/></am>m</abbr></orig>
+                     <orig><abbr><hi rend="cap red">S</hi> c<am><g ref="#dstrok"
+                        /></am>m</abbr></orig>
                      <reg><expan>S<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan></reg>
                   </choice>
                </w>
@@ -6746,373 +6765,911 @@
             <p n="34" xml:id="CXLIX_p_149r_034">
                <lb n="5" type="rubric" xml:id="CXLIX_lb_149r_05"/>
                <label n="50" place="inline"><w>L</w></label>
-               <w>Miserere</w>
-               <w>mei</w>
-               <w>deus</w>
-               <w>secundum</w>
-               <w>misericordiam</w>
-               <w>tuam</w>
-               <w>magmam</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="x-large red">M</hi>i<g ref="#slong"/>ereremei</orig>
+                     <reg>Miserere mei</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>c<am><g ref="#dstrok"/></am>m</abbr>
+                     <expan>s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><g ref="#mdblac"/>i<am><g ref="#slong"/></am>c<am><g ref="#dstrok"
+                              /></am>i<am><g ref="#amacr"/></am></abbr>
+                     <expan>mis<ex>eri</ex>c<ex>or</ex>dia<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>tu<am><g ref="#amacr"/></am></abbr>
+                     <expan>tua<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><g ref="#mdblac"/>agn<am><g ref="#amacr"/></am></abbr>
+                     <expan>magna<ex>m</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Et</w>
-               <w>secundum</w>
-               <w>multi</w>
-               <lb n="6" type="rubric" xml:id="CXLIX_lb_149r_06"/>
-               <w>tudinem</w>
-               <w>miserationum</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">E</hi>t<abbr><am><g ref="#slong"/></am>c<am><g
+                                 ref="#dstrok"/></am>m</abbr></orig>
+                     <reg>Et <expan>s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan></reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>multi<lb n="6" type="rubric" xml:id="CXLIX_lb_149r_06_abbr"/>tudin<am><g
+                              ref="#emacr"/></am></abbr>
+                     <expan>multi<lb n="6" type="rubric" xml:id="CXLIX_lb_149r_06_expan"
+                           />tudine<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>mi<g ref="#slong"/>erationum</w>
                <w>tuarum</w>
-               <w>dele</w>
-               <w>iniquitatem</w>
-               <w>meam</w>
+               <w>
+                  <choice>
+                     <orig>dele<abbr>iniquitat<am><g ref="#emacr"/></am></abbr>me<am><g ref="#amacr"
+                           /></am></orig>
+                     <reg>dele <expan>iniquitate<ex>m</ex></expan>
+                        <expan>mea<ex>m</ex></expan></reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Amplius</w>
-               <w>lava</w>
+               <w><hi rend="cap red">A</hi>mpliu<g ref="#slong"/></w>
+               <w>la<c corresp="#v">u</c>a</w>
                <w>me</w>
-               <w>ab</w>
-               <w>in</w>
+               <w>
+                  <choice>
+                     <orig>abin</orig>
+                     <reg>ab in</reg>
+                  </choice>
+               </w>
                <lb n="7" type="rubric" xml:id="CXLIX_lb_149r_07"/>
-               <w>iustitia</w>
+               <w>iu<g ref="#slongtlig"/>itia</w>
                <w>mea</w>
-               <w>et</w>
-               <w>a</w>
-               <w>delicto</w>
-               <w>meo</w>
-               <w>munda</w>
-               <w>me</w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <orig>adeli<g ref="#ctlig"/>omeo</orig>
+                     <reg>a delicto meo</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>mundame</orig>
+                     <reg>munda me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Quoniam</w>
-               <w>iniquitatem</w>
+               <w>
+                  <choice>
+                     <abbr><hi rend="cap red">Q</hi>m</abbr>
+                     <expan>Q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>iniquitat<am><g ref="#emacr"/></am></abbr>
+                     <expan>iniquitate<ex>m</ex></expan>
+                  </choice>
+               </w>
                <w>meam</w>
                <w>ego</w>
-               <w>agnosco</w>
-               <w>et</w>
+               <w>agno<g ref="#slong"/>co</w>
+               <w><g ref="#amp"/></w>
                <lb n="8" type="rubric" xml:id="CXLIX_lb_149r_08"/>
-               <w>delictum</w>
+               <w>
+                  <choice>
+                     <abbr>delict<am><g ref="#umacr"/></am></abbr>
+                     <expan>delictu<ex>m</ex></expan>
+                  </choice>
+               </w>
                <w>meum</w>
-               <w>coram</w>
-               <w>me</w>
-               <w>est</w>
-               <w>semper</w>
+               <w>
+                  <choice>
+                     <orig>coramme</orig>
+                     <reg>coram me</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#emacr"/></am></abbr>
+                     <expan>e<ex>st</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>sem<am><g ref="#pbardes"/></am></abbr>
+                     <expan>semp<ex>er</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Tibi</w>
-               <w>soli</w>
-               <w>peccavi</w>
-               <w>et</w>
-               <w>malum</w>
-               <w>coram</w>
-               <w>te</w>
-               <w>feci</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">T</hi>ibi<g ref="#slong"/>olipecca<c corresp="#v"
+                           >u</c>i</orig>
+                     <reg>Tibi soli peccavi</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig><g ref="#amp"/>malum</orig>
+                     <reg>et malum</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>coramtefeci</orig>
+                     <reg>coram te feci</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
                <lb n="9" type="rubric" xml:id="CXLIX_lb_149r_09"/>
-               <w>Averte</w>
-               <w>faciem</w>
-               <w>tuam</w>
-               <w>a</w>
-               <w>peccatis</w>
-               <w>meis</w>
-               <w>et</w>
-               <w>omnes</w>
-               <w>iniquitates</w>
-               <w>meas</w>
+               <w><hi rend="cap red">A</hi>verte</w>
+               <w>
+                  <choice>
+                     <abbr>faci<am><g ref="#emacr"/></am></abbr>
+                     <expan>facie<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>tu<am><g ref="#amacr"/></am></abbr>
+                     <expan>tua<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>apeccati<g ref="#slong"/></orig>
+                     <reg>a peccatis</reg>
+                  </choice>
+               </w>
+               <w>mei<g ref="#slong"/></w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <abbr>om<am><g ref="#slong"/></am></abbr>
+                     <expan>om<ex>ne</ex>s</expan>
+                  </choice>
+               </w>
+               <w>iniquitate<g ref="#slong"/></w>
+               <w>mea<g ref="#slong"/></w>
                <w>dele</w>
                <pc>.</pc>
-               <w>Cor</w>
-               <w>mundum</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">C</hi>ormundum</orig>
+                     <reg>Cor mundum</reg>
+                  </choice>
+               </w>
                <w>crea</w>
-               <w>in</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig>inme</orig>
+                     <reg>in me</reg>
+                  </choice>
+               </w>
                <lb n="10" type="rubric" xml:id="CXLIX_lb_149r_010"/>
-               <w>deus</w>
-               <w>et</w>
-               <w>spiritum</w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>p<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>sp<ex>iritu</ex>m</expan>
+                  </choice>
+               </w>
                <w>rectum</w>
-               <w>innova</w>
-               <w>in</w>
-               <w>visceribus</w>
-               <w>meis</w>
+               <w>inno<c corresp="#v">u</c>a</w>
+               <w>
+                  <choice>
+                     <orig>in<c corresp="#v">u</c>i<g ref="#slong"/>ceribu<g ref="#slong"/></orig>
+                     <reg>in visceribus</reg>
+                  </choice>
+               </w>
+               <w>mei<g ref="#slong"/></w>
                <pc>.</pc>
-               <w>Ne</w>
-               <w>proicias</w>
+               <w><hi rend="cap red">N</hi>e</w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#pflour"/></am>icia<g ref="#slong"/></abbr>
+                     <expan>p<ex>ro</ex>icias</expan>
+                  </choice>
+               </w>
                <w>me</w>
-               <w>a</w>
-               <w>facie</w>
-               <w>tua</w>
-               <w>et</w>
-               <w>spiritum</w>
-               <w>sanctum</w>
+               <w>
+                  <choice>
+                     <orig>afaci<g ref="#amp"/>ua</orig>
+                     <reg>a facie tua</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>p<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>sp<ex>iritu</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>c<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>s<ex>an</ex>c<ex>tu</ex>m</expan>
+                  </choice>
+               </w>
                <lb n="11" type="rubric" xml:id="CXLIX_lb_149r_011"/>
                <w>tuum</w>
-               <w>ne</w>
-               <w>auferas</w>
-               <w>a</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig>neau fera<g ref="#slong"/></orig>
+                     <reg>ne auferas</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>ame</orig>
+                     <reg>a me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Redde</w>
-               <w>mihi</w>
-               <w>laetitiam</w>
-               <w>salutaris</w>
-               <w>tui</w>
-               <w>et</w>
-               <w>spiritu</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">R</hi>eddemihi</orig>
+                     <reg><hi rend="cap red">R</hi>edde mihi</reg>
+                  </choice>
+               </w>
+               <w>la<g ref="#amp"/>itiam</w>
+               <w>
+                  <choice>
+                     <orig><g ref="#slong"/>alutari<g ref="#slongtlig"/>ui</orig>
+                     <reg>salutaris tui</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>p<am><g ref="#umacr"/></am></abbr>
+                     <expan>sp<ex>irit</ex>u<ex>m</ex></expan>
+                  </choice>
+               </w>
                <w>principali</w>
                <lb n="12" type="rubric" xml:id="CXLIX_lb_149r_012"/>
-               <w>confirma</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig>confirmame</orig>
+                     <reg>confirma me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Libera</w>
-               <w>me</w>
-               <w>de</w>
-               <w>sanguinibus</w>
-               <w>deus</w>
-               <w>deus</w>
-               <w>salutis</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">L</hi>iberamede<g ref="#slong"/>anguinibu<g
+                           ref="#slong"/></orig>
+                     <reg>Libera me de sanguinibus</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w><g ref="#slong"/>aluti<g ref="#slong"/></w>
                <w>meae</w>
-               <w>et</w>
+               <w><g ref="#amp"/></w>
                <w>exultabit</w>
                <w>lingua</w>
                <lb n="13" type="rubric" xml:id="CXLIX_lb_149r_013"/>
                <w>mea</w>
-               <w>iustitiam</w>
+               <w>iu<g ref="#slongtlig"/>itiam</w>
                <w>tuam</w>
                <pc>.</pc>
-               <w>Domine</w>
-               <w>labia</w>
-               <w>mea</w>
-               <w>aperies</w>
-               <w>et</w>
-               <w>os</w>
-               <w>meum</w>
-               <w>annuntiabit</w>
-               <w>laudem</w>
-               <w>tuam</w>
+               <w>
+                  <w>
+                     <choice>
+                        <abbr><hi rend="cap red">D</hi>n<am><g ref="#emacr"/></am></abbr>
+                        <expan><hi rend="cap red">D</hi><ex>omi</ex>ne</expan>
+                     </choice>
+                  </w>
+               </w>
+               <w>
+                  <choice>
+                     <orig>labiamea</orig>
+                     <reg>labia mea</reg>
+                  </choice>
+               </w>
+               <w>aperie<g ref="#slong"/></w>
+               <w><g ref="#amp"/></w>
+               <w><g ref="#oacute"/>s</w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#mmacrmed"/></am>m</abbr>
+                     <expan>m<ex>eu</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>annuntia<am><g ref="#bstrok"/></am></abbr>
+                     <expan>annuntiab<ex>it</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>laud<am><g ref="#emacr"/></am></abbr>
+                     <expan>laude<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>tu<am><g ref="#amacr"/></am></abbr>
+                     <expan>tua<ex>m</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
                <lb n="14" type="rubric" xml:id="CXLIX_lb_149r_014"/>
                <label n="51" place="inline"><w>LI</w></label>
-               <w>Confitebor</w>
-               <w>tibi</w>
-               <w>domine</w>
-               <w>in</w>
-               <w>saeculum</w>
-               <w>quoniam</w>
-               <w>fecisti</w>
-               <w>et</w>
-               <w>exspectabo</w>
+               <w><hi rend="x-large red">C</hi>onfitebor</w>
+               <w>
+                  <choice>
+                     <orig>tibi<abbr>dn<am><g ref="#emacr"/></am></abbr></orig>
+                     <reg>tibi <expan>d<ex>omi</ex>ne</expan></reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>in<abbr><am><g ref="#slong"/><g ref="#cogon"/><g ref="#lbar"
+                           /></am>m</abbr></orig>
+                     <reg>in <expan>s<ex>ae</ex>c<ex>u</ex>l<ex>u</ex>m</expan></reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>feci<g ref="#slongtlig"/>i</w>
+               <w><g ref="#amp"/></w>
+               <w>ex<g ref="#slong"/>pectabo</w>
                <w>nomen</w>
-               <w>tuum</w>
-               <w>quoniam</w>
-               <w>bonum</w>
-               <w>est</w>
+               <w>
+                  <choice>
+                     <abbr>tu<am><g ref="#umacr"/></am></abbr>
+                     <expan>tuu<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>bon<am><g ref="#umacr"/></am></abbr>
+                     <expan>bonu<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#emacr"/></am></abbr>
+                     <expan>e<ex>st</ex></expan>
+                  </choice>
+               </w>
                <w>ante</w>
                <lb n="15" type="rubric" xml:id="CXLIX_lb_149r_015"/>
-               <w>conspectum</w>
-               <w>sanctorum</w>
+               <w>con<g ref="#slong"/>pectum</w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#slong"/></am>c<am><g ref="#omacr"/></am>rum</abbr>
+                     <expan>s<ex>an</ex>c<ex>t</ex>orum</expan>
+                  </choice>
+               </w>
                <w>tuorum</w>
             </p>
             <p n="35" xml:id="CXLIX_p_149r_035">
                <lb n="16" type="rubric" xml:id="CXLIX_lb_149r_016"/>
                <label n="53" place="inline"><w>LIII</w></label>
-               <w>Deus</w>
-               <w>in</w>
-               <w>nomine</w>
-               <w>tuo</w>
-               <w>salvum</w>
-               <w>me</w>
-               <w>fac</w>
-               <w>et</w>
-               <w>in</w>
-               <w>virtute</w>
-               <w>tua</w>
+               <w>
+                  <choice>
+                     <abbr><hi rend="x-large">D</hi><am><g ref="#sinsmacr"/></am></abbr>
+                     <expan><hi rend="x-large">D</hi><ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>innominetuo</orig>
+                     <reg>in nomine tuo</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig><abbr>sal<c corresp="#v">u</c>u</abbr>mefac</orig>
+                     <reg><expan>salvu<ex>m</ex></expan> me fac</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <orig> invirtutetua</orig>
+                     <reg> in <c corresp="#v">u</c>irtute tua</reg>
+                  </choice>
+               </w>
                <lb n="17" type="rubric" xml:id="CXLIX_lb_149r_017"/>
-               <w>libera</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig> liberame</orig>
+                     <reg> libera me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Deus</w>
+               <w>
+                  <choice>
+                     <abbr><hi rend="cap red">D</hi><am><g ref="#sinsmacr"/></am></abbr>
+                     <expan><hi rend="cap red">D</hi><ex>eu</ex>s</expan>
+                  </choice>
+               </w>
                <w>exaudi</w>
                <w>orationem</w>
                <w>meam</w>
-               <w>auribus</w>
-               <w>percipe</w>
-               <w>verba</w>
-               <w>oris</w>
-               <w>mei</w>
+               <w>auribu<g ref="#slong"/></w>
+               <w>
+                  <choice>
+                     <orig><abbr><am><g ref="#pbardes"/></am>cipe</abbr><c corresp="#v"
+                           >u</c>erbaori<g ref="#slong"/>mei</orig>
+                     <reg><expan>p<ex>er</ex>cipe</expan> verba oris mei</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Quoniam</w>
-               <w>alieni</w>
+               <w>
+                  <choice>
+                     <orig><abbr><hi rend="cap red">Q</hi><am><g ref="#mmacrmed"
+                        /></am></abbr>alieni</orig>
+                     <reg><expan>Q<ex>uonia</ex>m</expan> alieni</reg>
+                  </choice>
+               </w>
                <lb n="18" type="rubric" xml:id="CXLIX_lb_149r_018"/>
-               <w>insurrexerunt</w>
-               <w>in</w>
-               <w>me</w>
-               <w>eet</w>
-               <w>fortes</w>
-               <w>quaesierunt</w>
+               <w>in<g ref="#slong"/>urrexerunt</w>
+               <w>
+                  <choice>
+                     <orig>inme</orig>
+                     <reg>in me</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>forte<g ref="#slong"/></w>
+               <w>
+                  <choice>
+                     <abbr>qu<am><g ref="#eogon"/></am><g ref="#slong"/>ie<am><g ref="#rmacr"
+                        /></am></abbr>
+                     <expan>qu<ex>ae</ex>sier<ex>unt</ex></expan>
+                  </choice>
+               </w>
                <w>animam</w>
-               <w>meam</w>
+               <w>
+                  <choice>
+                     <abbr>me<am><g ref="#amacr"/></am></abbr>
+                     <expan>mea<ex>m</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Averte</w>
-               <w>mala</w>
-               <w>inimicis</w>
-               <w>meis</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">A</hi>vertemala</orig>
+                     <reg><hi rend="cap red">A</hi>verte mala</reg>
+                  </choice>
+               </w>
+               <w>inimici<g ref="#slong"/></w>
+               <w>mei<g ref="#slong"/></w>
                <lb n="19" type="rubric" xml:id="CXLIX_lb_149r_019"/>
-               <w>et</w>
+               <w><g ref="#amp"/></w>
                <w>in</w>
-               <w>veritate</w>
+               <w>
+                  <choice>
+                     <orig><c corresp="#v">u</c>eritatetua</orig>
+                     <reg>veritate tua</reg>
+                  </choice>
+               </w>
                <w>tua</w>
-               <w>disperde</w>
-               <w>illos</w>
+               <w>
+                  <choice>
+                     <orig><abbr>di<g ref="#slong"/><am><g ref="#pbardes"/></am>de</abbr>illo<g
+                           ref="#slong"/></orig>
+                     <reg><expan>disp<ex>er</ex>de</expan> illos</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Voluntariae</w>
-               <w>sacrificabo</w>
-               <w>tibi</w>
-               <w>confitebor</w>
-               <w>nomini</w>
+               <w><hi rend="cap red"><c corresp="#V">U</c></hi>oluntariae</w>
+               <w>
+                  <choice>
+                     <orig><g ref="#slong"/>acrificabotibi</orig>
+                     <reg>sacrificabo tibi</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>confitebornomini</orig>
+                     <reg>confitebor nomini</reg>
+                  </choice>
+               </w>
                <lb n="20" type="rubric" xml:id="CXLIX_lb_149r_020"/>
                <w>tuo</w>
-               <w>quoniam</w>
+               <w>
+                  <choice>
+                     <abbr>qn<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uo</ex>n<ex>ia</ex>m</expan>
+                  </choice>
+               </w>
                <w>bonum</w>
-               <w>est</w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#emacr"/></am></abbr>
+                     <expan>e<ex>st</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Quoniam</w>
-               <w>ex</w>
-               <w>omni</w>
-               <w>tribulatione</w>
-               <w>eripuisti</w>
-               <w>me</w>
-               <w>et</w>
-               <w>super</w>
-               <w>inimicos</w>
-               <w>meos</w>
+               <w>
+                  <choice>
+                     <abbr>Q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>Q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>exomnitribulatione</orig>
+                     <reg>ex omni tribulatione</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>eripui<g ref="#slongtlig"/>ime</orig>
+                     <reg>eripuisti me</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <abbr>su<am><g ref="#pbardes"/></am></abbr>
+                     <expan>sup<ex>er</ex></expan>
+                  </choice>
+               </w>
+               <w>inimico<g ref="#slong"/></w>
+               <w>meo<g ref="#slong"/></w>
                <lb n="21" type="rubric" xml:id="CXLIX_lb_149r_021"/>
-               <w>respexit</w>
-               <w>oculus</w>
-               <w>meus</w>
-               <w>tuus</w>
+               <w>re<g ref="#slong"/>pexit</w>
+               <w>oculu<g ref="#slong"/></w>
+               <subst>
+                  <surplus>
+                     <w>
+                        <choice>
+                           <abbr><am><g ref="#mmacrmed"/></am><g ref="#slong"/></abbr>
+                           <expan>m<ex>eu</ex>s</expan>
+                        </choice>
+                     </w>
+                  </surplus>
+                  <add hand="scribe_1" place="above"><w>tuu<g ref="#slong"/></w></add>
+               </subst>
             </p>
             <p n="36" xml:id="CXLIX_p_149r_036">
                <lb n="22" type="rubric" xml:id="CXLIX_lb_149r_022"/>
                <label n="54" place="inline"><w>LIIII</w></label>
-               <w>Exaudi</w>
-               <w>deus</w>
-               <w>orationem</w>
+               <w><hi rend="x-large">E</hi>xaudi</w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#slong"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>oration<am><g ref="#emacr"/></am></abbr>
+                     <expan>oratione<ex>m</ex></expan>
+                  </choice>
+               </w>
                <w>meam</w>
-               <w>et</w>
+               <w><g ref="#amp"/></w>
                <w>ne</w>
-               <w>dispexeris</w>
-               <w>depre</w>
-               <lb n="23" type="rubric" xml:id="CXLIX_lb_149r_023"/>
-               <w>cationem</w>
+               <w>di<g ref="#slong"/>pexeri<g ref="#slong"/></w>
+               <w>
+                  <choice>
+                     <abbr>de<am><g ref="#pmacr"/></am><lb n="23" type="rubric" xml:id="CXLIX_lb_149r_023_abbr"/>cation<am><g ref="#emacr"/></am></abbr>
+                     <expan>dep<ex>re</ex><lb n="23" type="rubric" xml:id="CXLIX_lb_149r_023_expan"/>catione<ex>m</ex></expan>
+                  </choice>
+               </w>
                <w>meam</w>
                <w>intende</w>
-               <w>in</w>
-               <w>me</w>
-               <w>et</w>
-               <w>exaudi</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig>inme</orig>
+                     <reg>in me</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <orig>exaudime</orig>
+                     <reg>exaudi me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Contristatis</w>
-               <w>sum</w>
-               <w>in</w>
-               <w>exercitatione</w>
-               <w>mea</w>
+               <w><hi rend="cap red">C</hi>ontri<g ref="#slongtlig"/>atu<g ref="#slong"/></w>
+               <w><g ref="#slong"/>um</w>
+               <w>
+                  <choice>
+                     <orig>inexercitationemea</orig>
+                     <reg>in exercitatione mea</reg>
+                  </choice>
+               </w>
                <lb n="24" type="rubric" xml:id="CXLIX_lb_149r_024"/>
-               <w>et</w>
-               <w>conturbatas</w>
-               <w>sum</w>
-               <w>a</w>
-               <w>voce</w>
-               <w>inimici</w>
-               <w>et</w>
-               <w>a</w>
-               <w>tribulatione</w>
-               <w>peccatoris</w>
+               <w><g ref="#amp"/></w>
+               <w>conturbatu<g ref="#slong"/></w>
+               <w><g ref="#slong"/>um</w>
+               <w>
+                  <choice>
+                     <orig>a<c corresp="#v">u</c>oceinimici</orig>
+                     <reg>a voce inimici</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <orig>atribulatione</orig>
+                     <reg>a tribulatione</reg>
+                  </choice>
+               </w>
+               <w>peccatori<g ref="#slong"/></w>
                <pc>.</pc>
-               <w>Cor</w>
-               <w>meum</w>
-               <w>conturbatum</w>
-               <w>est</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">C</hi>or meum</orig>
+                     <reg>Cor meum</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>conturbat<am><g ref="#umacr"/></am></abbr>
+                     <expan>conturbatu<ex>m</ex></expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr><am><g ref="#emacr"/></am></abbr>
+                     <expan>e<ex>st</ex></expan>
+                  </choice>
+               </w>
                <lb n="25" type="rubric" xml:id="CXLIX_lb_149r_025"/>
-               <w>in</w>
-               <w>me</w>
-               <w>et</w>
-               <w>formido</w>
-               <w>mortis</w>
-               <w>cecedit</w>
-               <w>super</w>
-               <w>me</w>
+               <w>
+                  <choice>
+                     <orig>inme</orig>
+                     <reg>in me</reg>
+                  </choice>
+               </w>
+               <w><g ref="#amp"/></w>
+               <w>
+                  <choice>
+                     <orig>formidomorti<g ref="#slong"/></orig>
+                     <reg>formido mortis</reg>
+                  </choice>
+               </w>
+               <w>cecidit</w>
+               <w>
+                  <choice>
+                     <orig><abbr>su<am><g ref="#pbardes"/></am></abbr>me</orig>
+                     <reg><expan>sup<ex>er</ex></expan> me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Timor</w>
-               <w>et</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">T</hi>imor<g ref="#amp"/></orig>
+                     <reg>Timor et</reg>
+                  </choice>
+               </w>
                <w>tremor</w>
-               <w>venit</w>
-               <w>super</w>
-               <w>me</w>
-               <w>et</w>
-               <w>conte</w>
-               <lb n="26" type="rubric" xml:id="CXLIX_lb_149r_026"/>
-               <w>xerunt</w>
-               <w>me</w>
-               <w>tenebrae</w>
-               <w>;</w>
-               <w>Ego</w>
-               <w>vero</w>
-               <w>in</w>
-               <w>te</w>
-               <w>speravi</w>
-               <w>domine</w>
+               <w><c corresp="#v">u</c>enit</w>
+               <w>
+                  <choice>
+                     <orig><abbr>su<am><g ref="#pbardes"/></am></abbr>me</orig>
+                     <reg><expan>sup<ex>er</ex></expan>me</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig><g ref="#amp"/>conte<lb n="26" type="rubric" xml:id="CXLIX_lb_149r_026_orig"/>xeruntme</orig>
+                     <reg>et conte<lb n="26" type="rubric" xml:id="CXLIX_lb_149r_026_reg"/>xerunt me</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>tenebr<am><g ref="#eogon"/></am></abbr>
+                     <expan>tenebr<ex>a</ex>e</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>;</orig>
+                     <reg>.</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">E</hi>go<c corresp="#v">u</c>ero</orig>
+                     <reg>Ego vero</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>int<g ref="#eacute"/>spera<c corresp="#v">u</c>i</orig>
+                     <reg>in te speravi</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>dn<am><g ref="#emacr"/></am></abbr>
+                     <expan>d<ex>omi</ex>ne</expan>
+                  </choice>
+               </w>
             </p>
             <p n="37" xml:id="CXLIX_p_149r_037">
                <lb n="27" type="rubric" xml:id="CXLIX_lb_149r_027"/>
                <label n="55" place="inline"><w>LV</w></label>
-               <w>Miserere</w>
-               <w>mihi</w>
-               <w>domine</w>
-               <w>quoniam</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="x-large red">M</hi>i<g ref="#slong"/>ereremihi</orig>
+                     <reg>Miserere mihi</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>dn<am><g ref="#emacr"/></am></abbr>
+                     <expan>d<ex>omi</ex>ne</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
                <lb n="28" type="rubric" xml:id="CXLIX_lb_149r_028"/>
-               <w>conculcavit</w>
-               <w>me</w>
-               <w>homo</w>
-               <w>bellans</w>
-               <w>tribulavit</w>
-               <w>me</w>
+               <w>conculca<c corresp="#v">u</c>it</w>
+               <w>
+                  <choice>
+                     <orig>mehomo</orig>
+                     <reg>me homo</reg>
+                  </choice>
+               </w>
+               <w>bellan<g ref="#slong"/></w>
+               <w>
+                  <choice>
+                     <orig>tribu la<c corresp="#v">u</c>itme</orig>
+                     <reg>tribulavit me</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Conculcaverunt</w>
+               <w>
+                  <choice>
+                     <abbr><hi rend="cap red">C</hi>onculca<c corresp="#v">u</c>e<am><g ref="#rmacr"/></am></abbr>
+                     <expan><hi rend="cap red">C</hi>onculca<c corresp="#v">u</c>er<ex>unt</ex></expan>
+                  </choice>
+               </w>
                <w>me</w>
-               <w>inimici</w>
-               <w>mei</w>
+               <w>
+                  <choice>
+                     <orig>inimicimei</orig>
+                     <reg>inimici mei</reg>
+                  </choice>
+               </w>
                <lb n="29" type="rubric" xml:id="CXLIX_lb_149r_029"/>
-               <w>tota</w>
-               <w>die</w>
+               <w>
+                  <choice>
+                     <orig>totadie</orig>
+                     <reg>tota die</reg>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Ego</w>
-               <w>vero</w>
-               <w>in</w>
-               <w>te</w>
-               <w>speravi</w>
-               <w>domine</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">E</hi>go<c corresp="#v">u</c>ero</orig>
+                     <reg>Ego vero</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>inte<g ref="#slong"/>pera<c corresp="#v">u</c>i</orig>
+                     <reg>in te speravi</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>dn<am><g ref="#emacr"/></am></abbr>
+                     <expan>d<ex>omi</ex>ne</expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Deus</w>
-               <w>vitam</w>
-               <w>meam</w>
-               <w>nuntiavi</w>
+               <w>
+                  <choice>
+                     <abbr>D<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>D<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>vitammeam</orig>
+                     <reg>vitam meam</reg>
+                  </choice>
+               </w>
+               <w>nuntia<c corresp="#v">u</c>i</w>
                <w>tibi</w>
-               <w>posui</w>
-               <w>lacrimas</w>
+               <w>po<g ref="#slong"/>ui</w>
+               <w>lacrima<g ref="#slong"/></w>
                <lb n="30" type="rubric" xml:id="CXLIX_lb_149r_030"/>
-               <w>meas</w>
-               <w>in</w>
-               <w>conspectu</w>
+               <w>mea<g ref="#slong"/></w>
+               <w>
+                  <choice>
+                     <orig>incon<g ref="#slong"/>pectu</orig>
+                     <reg>in conspectu</reg>
+                  </choice>
+               </w>
                <w>tuo</w>
                <pc>.</pc>
-               <w>In</w>
-               <w>quacumque</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="cap red">I</hi>n<abbr>quac<am><g ref="#umacr"/></am>q<am><g ref="#sem"/></am></abbr></orig>
+                     <reg>In <expan>quacu<ex>m</ex>q<ex>ue</ex></expan></reg>
+                  </choice>
+               </w>
                <w>die</w>
-               <w>invoca</w>(<w>ve</w>)<w>ro</w>
-               <w>te</w><pc>.</pc>
-               <w>Ecce</w>
-               <w>agnovi</w>
-               <w>quoniam</w>
-               <w>deus</w>
-               <w>meus</w>
-               <w>es</w>
+               <w>
+                  <choice>
+                     <orig><sic>invocaro</sic>t<g ref="#eacute"/></orig>
+                     <reg><corr resp="#EB">invocavero</corr> te</reg>
+                  </choice>
+               </w><pc>.</pc>
+               <w><hi rend="cap red">E</hi>cce</w>
+               <w>agno<c corresp="#v">u</c>i</w>
+               <w>
+                  <choice>
+                     <abbr>q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>m<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>m<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>e<g ref="#slongmacr"/></w>
                <w>tu</w>
                <pc>.</pc>
                <lb n="31" type="rubric" xml:id="CXLIX_lb_149r_031"/>
@@ -7120,43 +7677,86 @@
             <p n="38" xml:id="CXLIX_p_149r_038">
                <lb n="32" type="rubric" xml:id="CXLIX_lb_149r_032"/>
                <label n="56" place="inline"><w>LVI</w></label>
-               <w>Miserere</w>
-               <w>mei</w>
-               <w>deus</w>
-               <w>miserere</w>
-               <w>mei</w>
-               <w>quoniam</w>
-               <w>in</w>
-               <w>te</w>
-               <w>confidit</w>
+               <w>
+                  <choice>
+                     <orig><hi rend="x-large red">M</hi>isereremei</orig>
+                     <reg><hi rend="x-large red">M</hi>iserere mei</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>mi<g ref="#slong"/>ereremei</orig>
+                     <reg>miserere mei</reg>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <abbr>q<am><g ref="#mmacrmed"/></am></abbr>
+                     <expan>q<ex>uonia</ex>m</expan>
+                  </choice>
+               </w>
+               <w>
+                  <choice>
+                     <orig>inteconfidit</orig>
+                     <reg>in te confidit</reg>
+                  </choice>
+               </w>
                <w>anima</w>
                <w>mea</w>
                <pc>.</pc>
                <lb n="33" type="rubric" xml:id="CXLIX_lb_149r_033"/>
-               <w>Et</w>
-               <w>in</w>
-               <w>umbra</w>
+               <w><hi rend="cap red">E</hi>t</w>
+               <w>
+                  <choice>
+                     <orig>inumbra</orig>
+                     <reg>in umbra</reg>
+                  </choice>
+               </w>
                <w>alarum</w>
                <w>tuarum</w>
-               <w>sperabo</w>
-               <w>donec</w>
-               <w>transeat</w>
-               <w>iniquitas</w>
+               <w><g ref="#slong"/>perabo</w>
+               <w>
+                  <choice>
+                     <orig>donectran<g ref="#slong"/>eat</orig>
+                     <reg>donec transeat</reg>
+                  </choice>
+               </w>
+               <w>iniquita<g ref="#slong"/></w>
                <pc>.</pc>
-               <w>Paratum</w>
+               <w><hi rend="cap red">P</hi>aratum</w>
                <w>cor</w>
                <lb n="34" type="rubric" xml:id="CXLIX_lb_149r_034"/>
                <w>meum</w>
-               <w>deus</w>
+               <w>
+                  <choice>
+                     <abbr>d<am><g ref="#sinsmacr"/></am></abbr>
+                     <expan>d<ex>eu</ex>s</expan>
+                  </choice>
+               </w>
                <w>paratum</w>
-               <w>cor</w>
-               <w>meum</w>
+               <w>
+                  <choice>
+                     <orig>cormeum</orig>
+                     <reg>cor meum</reg>
+                  </choice>
+               </w>
                <w>contabo</w>
-               <w>et</w>
-               <w>psalmum</w>
-               <w>dicam</w>
+               <w><g ref="#amp"/></w>
+               <w>p<g ref="#slong"/>almum</w>
+               <w>
+                  <choice>
+                     <abbr>dic<am><g ref="#amacr"/></am></abbr>
+                     <expan>dica<ex>m</ex></expan>
+                  </choice>
+               </w>
                <pc>.</pc>
-               <w>Confitebor</w>
+               <w><hi rend="cap red">C</hi>onfitebor</w>
                <w>tibi</w>
                <pb n="149v" xml:id="CXLIX_folio_149v"/>
                <lb n="1" type="rubric" xml:id="CXLIX_lb_149v_01"/>
@@ -7198,7 +7798,7 @@
                <lb n="3" type="rubric" xml:id="CXLIX_lb_149v_03"/>
                <w>gloria</w>
                <w>tua</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
             </p>
             <p n="39" xml:id="CXLIX_p_149v_039">
                <lb n="4" type="rubric" xml:id="CXLIX_lb_149v_04"/>
@@ -7341,7 +7941,7 @@
                <w>vana</w>
                <w>salus</w>
                <w>hominis</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
             </p>
             <p n="41" xml:id="CXLIX_p_149v_041">
                <lb n="12" type="rubric" xml:id="CXLIX_lb_149v_012"/>
@@ -8184,7 +8784,7 @@
                <w>voces</w>
                <w>quaerentium</w>
                <w>te</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
             </p>
             <p n="52" xml:id="CXLIX_p_150v_052">
                <lb n="2" type="rubric" xml:id="CXLIX_lb_150v_02"/>
@@ -8215,15 +8815,15 @@
                <w>hominis</w>
                <w>confitebitur</w>
                <w>tibi</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
             </p>
             <p n="54" xml:id="CXLIX_p_150v_054">
                <lb n="4" type="rubric" xml:id="CXLIX_lb_150v_04"/>
                <label n="76" place="inline"><w><w>LXXVI</w></w></label>
                <w>Memor</w>
                <subst>
-                  <surplus instant="false"><add place="below"><metamark function="substitution"
-                        /></add><w>esto</w></surplus>
+                  <surplus><add place="below"><metamark function="substitution"
+                     /></add><w>esto</w></surplus>
                   <add hand="scribe_1" place="above"><w>ero</w></add>
                </subst>
                <w>ab</w>
@@ -8253,7 +8853,7 @@
                <w>anticipet</w>
                <w>misericordia</w>
                <w>tua</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
                <lb n="6" type="rubric" xml:id="CXLIX_lb_150v_06"/>
                <w>quia</w>
                <w>pauperes</w>
@@ -8297,7 +8897,7 @@
                <w>narrabimus</w>
                <w>laudem</w>
                <w>tuam</w>
-               <reg instant="false">.</reg>
+               <reg>.</reg>
             </p>
             <p n="56" xml:id="CXLIX_p_150v_056">
                <lb n="9" type="rubric" xml:id="CXLIX_lb_150v_09"/>
@@ -8314,10 +8914,10 @@
                <w>qui</w>
                <w>sedes</w>
                <w>super</w>
-               <w>cherubi</w><subst>
-                  <surplus instant="false"><w>m</w></surplus>
-                  <add hand="scribe_1" place="above"><w>n</w></add>
-               </subst>
+               <w>cherubi<subst>
+                     <surplus>m</surplus>
+                     <add hand="scribe_1" place="above">n</add>
+                  </subst></w>
                <lb n="10" type="rubric" xml:id="CXLIX_lb_150v_010"/>
                <w>ostende</w>
                <w>faciem</w>
