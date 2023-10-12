@@ -1061,10 +1061,39 @@
         
         <!-- LIGATURES -->
         
+        <glyph xml:id="ctlig">
+          <localProp name="Name" value="LATIN SMALL LIGATURE CT"/>
+          <mapping subtype="composed" type="ligature">U+000063 + U+000074</mapping>
+          <mapping type="diplomatic">ct</mapping>
+          <mapping type="normalized">ct</mapping>
+        </glyph>
+
+        <glyph xml:id="salig">
+          <localProp name="Name" value="LATIN SMALL LIGATURE LONG SA"/>
+          <mapping subtype="composed" type="ligature">U+00017F + U+000061</mapping>
+          <mapping type="diplomatic">ſa</mapping>
+          <mapping type="normalized">sa</mapping>
+        </glyph>
+
+        <glyph xml:id="stlig">
+          <localProp name="Name" value="LATIN SMALL LIGATURE LONG ST"/>
+          <mapping subtype="composed" type="ligature">U+00017F + U+000074</mapping>
+          <mapping type="diplomatic">ſt</mapping>
+          <mapping type="normalized">st</mapping>
+        </glyph>
+        
         <char xml:id="ijlig">
           <unicodeProp name="Name" value="LATIN SMALL LIGATURE IJ"/>
-          <mapping subtype="MUFI-PUA" type="ligature">U+0132</mapping>
+          <mapping subtype="MUFI-PUA" type="ligature">U+0133</mapping>
+          <mapping type="diplomatic">ij</mapping>
           <mapping type="normalized">ij</mapping>
+        </char>
+        
+        <char xml:id="IJlig">
+          <unicodeProp name="Name" value="LATIN CAPITAL LIGATURE IJ"/>
+          <mapping subtype="MUFI-PUA" type="ligature">U+0132</mapping>
+          <mapping type="diplomatic">IJ</mapping>
+          <mapping type="normalized">IJ</mapping>
         </char>
         
         <glyph xml:id="ppflourlig">
@@ -1470,6 +1499,13 @@
           <mapping type="codepoint">U+00B7</mapping>
           <mapping type="diplomatic">·</mapping>
           <!--<mapping type="normalized"></mapping>-->
+        </char>
+        
+        <char xml:id="punctinter">
+          <unicodeProp name="Name" value="PUNCTUS INTERROGATIVUS"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F160</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">?</mapping>
         </char>
         
         <char xml:id="punctelev">
