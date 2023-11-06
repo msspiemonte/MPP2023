@@ -3,14 +3,15 @@
 Note generali di marcatura 
 Fols. 146r-155r
 
-	146r
-
 -	s insular e s long sono molto simili a volte ed è difficile distinguerle (es. abbreviazione 	di "deus" nel manuale Cappelli viene indicata come "ds" e la s è insular // l'abbreviazione
-	di "meus" viene indicata come "ms" e sembra, invece, con s long) 	
-
+	di "meus" viene indicata come "ms" e sembra, invece, con s long) 
 
 -	presenza di un segno prima del numero del salmo e come ripresa di alcune righe
-	—> come marcarlo? 
+
+-	l'abbr di "domine" sembra avere il segno di abbr nella "e" finale (emacr), ma nel Cappelli è 
+	indicata la n come segno di abbr (nmacrmed) -> inserito con il segno di abbr nella n
+
+	146r
 
 02	glossa "O" in rosso sbiadito
 
@@ -28,7 +29,7 @@ O5 	glossa "O" in rosso
 
 	146v
 
-- 	presenza del numero di fascicolo "XVII" con dei disegni attorno (si ripetono nel corso del 	manoscritto per indicare i numeri degli altri fascicoli -> hotspot function (?)
+- 	presenza del numero di fascicolo "XVII" con dei disegni attorno (si ripetono nel corso del 	manoscritto per indicare i numeri degli altri fascicoli -> hot spot function(?)
 
 017	"pauperem" e sopra la seconda "e" c'è la "u" (-> quindi sostituito(?) con pauperum) 
 
@@ -44,10 +45,20 @@ O5 	glossa "O" in rosso
 
 08	latin small letter i ... combining along s???
 
+	148v
+
+08	"misericordiam" e "tuam" hanno la "m" finale con puntino sopra e sotto -> hot spot 		function(?)
+
 
 	149r
 
 02	ampersand+macron
+
+	150r
+
+07	inheream a margine con il segno "SIGNE DE RENVOI" che può avere function di insertion o 	correction --> qua sembra una correzione di "inheream" al posto di "infigar"
+
+012	"propter" con t e un segno che non si capisce bene cosa sia --> altre occorrenze con abbr di 	"propter" presentano "tmacr"
 
 	
 	150v
@@ -56,7 +67,37 @@ O5 	glossa "O" in rosso
 
 	
 	151r
-	- glossa "locutis" in alto
+	
+-	glossa "locutis" in alto
+
+	151v
+
+012	linea che lega la parola "misericordia"
+
+	152v
+
+030	<subst><del rend="overstrike"><w>scri</w></del><add>
+	<pb n="153r" xml:id="CXLIX_folio_153r"/>
+	<lb n="1" type="rubric" xml:id="CXLIX_lb_153r_01"/>
+	<w>scribentur</w></add></subst> ????
+
+	153r
+
+019	omnes con "m" che presenta una linea discendente -> non sembra "mrdes" (U+F223)
+
+	154r
+
+013	"peccatores" con "e" che presenta segni sopra(????)
+
+	154v
+-	in basso alla pagina c'è un segno di mano posteriore ("tuae" ...???) --> hot spot function
+
+	154v
+-	in fondo alla pagina una scritta di mano2: ???
+
+	155r
+
+-	alla fine del testo c'è un appunto di seconda mano (scribe_2): "eum naturitas quando Christus 	natus est omnes dolor fugatus est fuge // quando Christus natus est omnes dolor ?? confiteum ... ???
 
 
 
