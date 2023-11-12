@@ -125,6 +125,11 @@
           <mapping type="diplomatic">á</mapping>
           <mapping type="normalized">a</mapping>
         </char>
+        <glyph xml:id="adblac">
+          <localProp name="Name" value="LATIN SMALL LETTER A WITH DOUBLE ACUTE"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E425</mapping>
+          <mapping type="diplomatic">a̋</mapping>
+        </glyph>
         <char xml:id="aeligacute">
           <unicodeProp name="Name" value="LATIN SMALL LETTER AE WITH ACUTE"/>
           <mapping type="codepoint">U+01FD</mapping>
@@ -137,6 +142,11 @@
           <mapping type="diplomatic">é</mapping>
           <mapping type="normalized">e</mapping>
         </char>
+        <glyph xml:id="edblac">
+          <localProp name="Name" value="LATIN SMALL LETTER E WITH DOUBLE ACUTE"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+E4D1</mapping>
+          <mapping type="diplomatic">e̋</mapping>
+        </glyph>
         <char xml:id="iacute">
           <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH ACUTE"/>
           <mapping type="codepoint">U+00ED</mapping>
@@ -452,6 +462,12 @@
           <mapping type="normalized">F</mapping>
         </char>
 
+        <char xml:id="gmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER G WITH MACRON"/>
+          <mapping subtype="combined" type="codepoint">U+0067 + U+0304</mapping>
+          <mapping type="diplomatic">ḡ</mapping>
+        </char>
+
         <char xml:id="hstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER H WITH STROKE"/>
           <mapping type="codepoint">U+0127</mapping>
@@ -569,6 +585,13 @@
           <mapping subtype="MUFI-PUA" type="codepoint">U+E665</mapping>
           <mapping type="diplomatic"></mapping>
           <mapping type="normalized">p</mapping>
+        </char>
+
+        <char xml:id="qmacr">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER Q WITH HIGH MACRON"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">E681</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">q</mapping>
         </char>
 
         <char xml:id="racute">
@@ -810,6 +833,12 @@
           <mapping subtype="MUFI-PUA" type="codepoint">U+E8A3</mapping>
           <mapping type="diplomatic">h</mapping>
           <!-- CHECK replace with appropriate character -->
+        </char>
+        
+        <char xml:id="enim">
+          <unicodeProp name="Name" value="LATIN ABBREVIATION SIGN ENIM"/>
+          <mapping subtype="composed" type="codepoint">U+00B7 + U+004E + U+00B7</mapping>
+          <mapping type="diplomatic">·N·</mapping>
         </char>
 
         <!-- RUNES -->
@@ -1150,7 +1179,7 @@
 
         <glyph xml:id="salig">
           <localProp name="Name" value="LATIN SMALL LIGATURE LONG SA"/>
-          <mapping subtype="composed" type="ligature">U+00017F + U+000061</mapping>
+          <mapping subtype="composed" type="ligature">U+017F + U+0061</mapping>
           <mapping type="diplomatic">ſa</mapping>
           <mapping type="normalized">sa</mapping>
         </glyph>
@@ -1635,6 +1664,42 @@
         <char xml:id="combovl">
           <unicodeProp name="Name" value="COMBINING OVERLINE"/>
           <mapping type="diplomatic">̅</mapping>
+        </char>
+        <char xml:id="combdblac">
+          <unicodeProp name="Name" value="COMBINING DOUBLE ACUTE ACCENT"/>
+          <mapping type="codepoint">U+030B</mapping>
+          <mapping type="diplomatic">̋</mapping>
+        </char>
+
+        <char xml:id="verbar">
+          <unicodeProp name="Name" value="VERTICAL LINE"/>
+          <mapping type="codepoint">U+007C</mapping>
+          <mapping type="diplomatic">|</mapping>
+        </char>
+        <char xml:id="arabicpercent">
+          <unicodeProp name="Name" value="ARABIC PERCENT SIGN"/>
+          <mapping type="codepoint">U+066A</mapping>
+          <mapping type="diplomatic">٪</mapping>
+        </char>
+        <char xml:id="punctvers">
+          <unicodeProp name="Name" value="PUNCTUS VERSUS"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1EA</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+        <char xml:id="renvoi">
+          <unicodeProp name="Name" value="SIGNE DE RENVOI"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1EC</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+        <char xml:id="luslst">
+          <unicodeProp name="Name" value="LEFT RAISED OMISSION BRACKET"/>
+          <mapping type="codepoint">U+2E0C</mapping>
+          <mapping type="diplomatic">⸌</mapping>
+        </char>
+        <char xml:id="ruslst">
+          <unicodeProp name="Name" value="LEFT RAISED OMISSION BRACKET"/>
+          <mapping type="codepoint">U+2E0D</mapping>
+          <mapping type="diplomatic">⸍</mapping>
         </char>
         
         <char xml:id="amp">
