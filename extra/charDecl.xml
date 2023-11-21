@@ -82,6 +82,13 @@
           <mapping type="normalized">i</mapping>
         </char>
 
+        <char xml:id="jnodot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER DOTLESS J"/>
+          <mapping type="codepoint">U+0237</mapping>
+          <mapping type="diplomatic">ȷ</mapping>
+          <mapping type="normalized">j</mapping>
+        </char>
+
         <char xml:id="aenl">
           <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL A"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+EEE0</mapping>
@@ -235,7 +242,7 @@
         </char>
 
         <glyph xml:id="amacrbl">
-          <localProp name="Name" value="LATIN SMALL LETTER A WITH COMBINING MACRON BELOW"/>
+          <localProp name="Name" value="LATIN SMALL LETTER A COMBINING MACRON BELOW"/>
           <mapping subtype="composed" type="codepoint">U+0061 + U+0331</mapping>
           <mapping type="diplomatic">a̱</mapping>
           <mapping type="normalized">a</mapping>
@@ -282,6 +289,13 @@
           <mapping type="diplomatic">æ̣̇</mapping>
           <!-- aelig + dot below + dot above, change using above if necessary -->
           <mapping type="normalized">æ</mapping>
+        </char>
+
+        <char xml:id="udotbl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER U WITH DOT BELOW"/>
+          <mapping type="codepoint">U+1EE5</mapping>
+          <mapping type="diplomatic">ụ</mapping>
+          <mapping type="normalized">u</mapping>
         </char>
 
         <char xml:id="uddot">
@@ -511,14 +525,14 @@
         </char>
         <glyph xml:id="mdblac">
           <localProp name="Name" value="LATIN SMALL LETTER M WITH DOUBLE ACUTE"/>
-          <mapping subtype="composed" type="codepoint">U+006D + U+030B</mapping>
+          <mapping subtype="composed" type="codepoint">U+006D+ U+030B</mapping>
           <mapping type="diplomatic">m̋</mapping>
           <mapping type="normalized">m</mapping>
         </glyph>
         <glyph xml:id="mcom">
-          <localProp name="Name" value="LATIN SMALL LETTER M WITH COMBINING COMMA ABOVE RIGHT"/>
-          <mapping subtype="composed" type="codepoint">U+006D + U+0315</mapping>
-          <mapping type="diplomatic">m̕</mapping>
+          <localProp name="Name" value="LATIN SMALL LETTER M WITH COMBINING COMMA ABOVE"/>
+          <mapping subtype="composed" type="codepoint">U+006D + U+0313</mapping>
+          <mapping type="diplomatic">m̓</mapping>
           <mapping type="normalized">m</mapping>
         </glyph>
         <char xml:id="mcurl">
@@ -541,6 +555,13 @@
           <mapping subtype="MUFI-PUA" type="codepoint">U+E1B8</mapping>
           <mapping type="diplomatic">M̄</mapping>
           <mapping type="normalized">M</mapping>
+        </char>
+
+        <char xml:id="ndotbl">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER N WITH DOT BELOW"/>
+          <mapping type="codepoint">U+1E47</mapping>
+          <mapping type="diplomatic">ṇ</mapping>
+          <mapping type="normalized">n</mapping>
         </char>
 
         <char xml:id="ndotabbl">
@@ -621,6 +642,13 @@
           <mapping subtype="composed" type="codepoint">U+0074 + U+0304</mapping>
           <mapping type="diplomatic">t̄</mapping>
           <mapping type="normalized">t</mapping>
+        </char>
+
+        <char xml:id="tur">
+          <localProp name="Name" value="LATIN SMALL LETTER T WITH UR ABOVE"/>
+          <mapping subtype="combined" type="codepoint">U+0074 + U+1DD1</mapping>
+          <mapping type="diplomatic">t᷑</mapping>
+          <mapping type="diplomatic">t</mapping>
         </char>
 
         <char xml:id="wmacr">
@@ -744,14 +772,14 @@
           <mapping type="diplomatic">̄</mapping>
           <mapping type="normalized">m</mapping>
         </glyph>
-        
+
         <char xml:id="pdotbl">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH DOT BELOW"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+0070 + U+0323</mapping>
           <mapping type="diplomatic">p̣</mapping>
           <mapping type="normalized">p</mapping>
         </char>
-
+        
         <glyph xml:id="sins">
           <localProp name="Name" value="LATIN SMALL LETTER INSULAR S"/>
           <mapping type="codepoint">U+A785</mapping>
@@ -786,14 +814,14 @@
           <mapping type="diplomatic">ſ̄</mapping>
           <mapping type="normalized">s</mapping>
         </glyph>
-        
+
         <char xml:id="slongdotbl">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LONG S WITH DOT BELOW"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+017F + U+0323</mapping>
           <mapping type="diplomatic">ſ̣</mapping>
           <mapping type="normalized">s</mapping>
         </char>
-
+        
         <glyph xml:id="wynn">
           <localProp name="Name" value="LATIN LETTER WYNN"/>
           <mapping type="codepoint">U+01BF</mapping>
@@ -1067,13 +1095,14 @@
 
 
         <!-- VOWELS: VARIANT LETTER FORMS -->
-        
+
         <char xml:id="idotbl">
           <unicodeProp name="Name" value="LATIN SMALL LETTER I WITH DOT BELOW"/>
           <mapping type="codepoint">U+0069 + U+0323</mapping>
           <mapping type="diplomatic">ị</mapping>
           <mapping type="normalized">i</mapping>
         </char>
+
 
         <!-- CONSONANTS -->
 
@@ -1415,6 +1444,18 @@
           <mapping type="normalized">b</mapping>
         </char>
 
+        <char xml:id="drot">
+          <unicodeProp name="Name" value="LATIN SMALL LETTER INSULAR D"/>
+          <mapping type="codepoint">U+A77A</mapping>
+          <mapping type="diplomatic">ꝺ</mapping>
+          <mapping type="normalized">d</mapping>
+        </char>
+        <char xml:id="Drot">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER INSULAR D"/><!-- !!! -->
+          <mapping type="codepoint">U+A779</mapping>
+          <mapping type="diplomatic">Ꝺ</mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
         <char xml:id="drotercurl">
           <unicodeProp name="Name" value="LATIN SMALL LETTER INSULAR D WITH ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM"/>
           <mapping subtype="composed" type="codepoint">U+A77A + U+F1C8</mapping>
@@ -1588,7 +1629,13 @@
           <mapping type="diplomatic"></mapping>
           <mapping type="normalized">.</mapping>
         </char>
-        
+
+        <char xml:id="bidotscomposit">
+          <unicodeProp name="Name" value="TWO DOTS OVER COMMA POSITURA"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1F2</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
         <char xml:id="hidot">
           <unicodeProp name="Name" value="DISTINCTIO"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+F1F8</mapping>
@@ -1617,6 +1664,19 @@
           <!--<mapping type="normalized"></mapping>-->
         </char>
         
+        <char xml:id="punctflex">
+          <unicodeProp name="Name" value="PUNCTUS FLEXUS"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1F5</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+        <char xml:id="punctelevhack">
+          <unicodeProp name="Name" value="PUNCTUS ELEVATUS WITH ONSET"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+F1FB</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">.</mapping>
+        </char>
+
         <char xml:id="punctinter">
           <unicodeProp name="Name" value="PUNCTUS INTERROGATIVUS"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+F160</mapping>
@@ -1660,6 +1720,12 @@
         </char>
         
         <!-- OTHER -->
+
+        <char xml:id="uml">
+          <unicodeProp name="Name" value="DIAERESIS"/>
+          <mapping type="codepoint">U+00A8</mapping>
+          <mapping type="diplomatic">¨</mapping>
+        </char>
 
         <char xml:id="combovl">
           <unicodeProp name="Name" value="COMBINING OVERLINE"/>
