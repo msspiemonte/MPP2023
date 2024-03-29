@@ -1,0 +1,39 @@
+TEI HEADER
+
+PERSONE CITATE:
+
+? Achilles: persona non facilmente identificabile. Come si segna?
+? aggettivi derivati da nomi propri (e.g. Plautinus) come si marcano: sempre come <persName>, anche se non è "Plautus"?
+Mancanti da wikidata: Attica (figlia di Attico), Glyco, C. Nasennius, Satrius.
+
+LUOGHI CITATI:
+
+? Come marcare i nomi di popoli? es. Gallorum?
+? (domanda simile a quella indicata per le peresone) come marcare gli aggettivi derivati da nomi propri, e.g. bellum Mutinicum?
+Mancanti da wikidata: Candavia, Chersonesum (manca come regione, è presente come città), Europa (anche qui, manca come regione storica)
+
+Come marcare i nomi di opere? Per esempio, nel testo è citato il Trinummo di Plauto. Forse <objectName>?
+
+aggiornata la charDecl con due caratteri:
+(1)
+            <char xml:id="fivedots">
+               <unicodeProp name="Name" value="FIVE DOT MARK"/>
+               <mapping type="codepoint">U+02E2D</mapping>
+               <mapping type="diplomatic">⸭</mapping>
+            </char>
+(2)
+
+            <char xml:id="mdash">
+               <unicodeProp name="Name" value="EM DASH"/>
+               <mapping type="codepoint">U+02014</mapping>
+               <mapping type="diplomatic">—</mapping>
+            </char>
+
+____________________________________________________________
+
+TESTO
+
+- <div type="prose" subtype="part">? Va bene per le lettere?
+- come marcare una parola "unclear" perché l'inchiostro del verso è passato attraverso? intuitivamente, il fenomeno si chiama "bleeding through", ma questo attributo sembra non esistere
+- Come marcare <persName> quando un nome è diviso da un'altra parola? e.g. "gaius enim marius"? Sto facendo doppia marcatura (prima Gaius, poi Marius).
+- Citazione dal "Trinummo" (vd. questione riportata nella parte del TEIHeader). Ho marcato la citazione come <quote>, ma che attributo unire?
