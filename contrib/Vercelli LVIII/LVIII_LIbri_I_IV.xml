@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="../schema/tei_mpp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/tei_mpp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title> "Manoscritti preziosi del Piemonte: acquisizione e disseminazione in forma
+                <title>"Manoscritti preziosi del Piemonte: acquisizione e disseminazione in forma
                     digitale" project</title>
                 <title/>
                 <author>Various</author>
@@ -207,7 +210,7 @@
 
             <!-- THE COMMON <charDecl> -->
 
-            <xi:include href="../extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"
+            <xi:include href="extra/charDecl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"
                 xpointer="general_charDecl">
                 <xi:fallback>
                     <p>
@@ -9629,7 +9632,7 @@
                                     <expan><ex>per</ex></expan>
                                 </choice></w>
                             <w>h</w>
-                            <w>scr<g ref="#inodot"/>ben<am><g ref="">d</g></am></w><!-- scribendum? -->
+                            <w>scr<g ref="#inodot"/>ben<am><g ref="#us">d</g></am></w><!-- CHECK scribendum? -->
                             <lb xml:id="VC_LVIII_lb_013r_44"/><w><hi rend="double">o</hi>nus</w>
                             <w>s<g ref="#inodot"/></w>
                             <w>de</w>
@@ -11622,7 +11625,7 @@
                             <supplied resp="#aan" source="#Lindsay"><w><g ref="#inodot"/>u<c corresp="#v">u</c>encum</w></supplied>
                             <w>terga</w>
                             <w><choice>
-                                    <abbr>fat<g ref="#inodot"/>gam<am><g ref=""/></am></abbr>
+                                    <abbr>fat<g ref="#inodot"/>gam<am><g ref="#us"/></am></abbr><!-- CHECK fix with correct char ref-->
                                     <expan>fatigam<ex>us</ex></expan>
                                 </choice></w>
                             <lb xml:id="VC_LVIII_lb_015r_41"/><w>ha<g ref="#slongtlig"/>a</w>.<space unit="char" quantity="2"/><w><hi rend="double">a</hi>mph<g ref="#inodot"/>bol<g ref="#inodot"/>a</w>
