@@ -255,6 +255,13 @@
           <mapping type="normalized">y</mapping>
         </char>
 
+        <char xml:id="Ydot">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER Y WITH DOT ABOVE"/>
+          <mapping type="codepoint">U+1E8E</mapping>
+          <mapping type="diplomatic">Ẏ</mapping>
+          <mapping type="normalized">Y</mapping>
+        </char>
+        
         <char xml:id="ydotacute">
           <unicodeProp name="Name" value="LATIN SMALL LETTER Y WITH DOT ABOVE AND ACUTE"/>
           <mapping subtype="composed" type="codepoint">U+1E8F U+0301</mapping>
