@@ -443,21 +443,21 @@
 
     <body>
       <!-- I primi fogli contengono musica e testo - tornarci poi -->
-      <pb n="1r" xml:id="VC_LVIII_folio_001r"/>
+      <pb facs="data/images/single/LVIII-001r" n="1r" xml:id="VC_LVIII_folio_001r"/>
 
       <ab>
         <lb/>Ad te Domine <lb/>vi animam meam <lb/>Deus in te confido meus </ab>
 
-      <pb n="1v" xml:id="VC_LVIII_folio_001v"/>
-      <pb n="2r" xml:id="VC_LVIII_folio_002r"/>
-      <pb n="2v" xml:id="VC_LVIII_folio_002v"/>
-      <pb n="3r" xml:id="VC_LVIII_folio_003r"/>
-      <pb n="3v" xml:id="VC_LVIII_folio_003v"/>
+      <pb facs="data/images/single/LVIII-001v.jpg" n="1v" xml:id="VC_LVIII_folio_001v"/>
+      <pb facs="data/images/single/LVIII-002r.jpg" n="2r" xml:id="VC_LVIII_folio_002r"/>
+      <pb facs="data/images/single/LVIII-002v.jpg" n="2v" xml:id="VC_LVIII_folio_002v"/>
+      <pb facs="data/images/single/LVIII-003r.jpg" n="3r" xml:id="VC_LVIII_folio_003r"/>
+      <pb facs="data/images/single/LVIII-003v.jpg" n="3v" xml:id="VC_LVIII_folio_003v"/>
 
       <div n="1" type="book">
         <!-- libro primo -->
 
-        <pb n="4r" xml:id="VC_LVIII_folio_004r"/>
+        <pb facs="data/images/single/LVIII-004r.jpg" n="4r" xml:id="VC_LVIII_folio_004r"/>
         <cb/>
 
         <div type="prefatio">
@@ -955,7 +955,7 @@
 
         <div n="1.1">
 
-          <pb n="4v" xml:id="VC_LVIII_folio_004v"/>
+          <pb facs="data/images/single/LVIII-004v.jpg" n="4v" xml:id="VC_LVIII_folio_004v"/>
 
           <cb/>
 
@@ -1383,8 +1383,14 @@
             <w>al<g ref="#inodot"/>as</w>
             <w>habu<g ref="#inodot"/>sse</w>
             <w>l<g ref="#inodot"/>tteras</w>
-            <pb n="5r" xml:id="VC_LVIII_folio_005r"/><fw place="bottom-right" type="fol"><add hand="unknown"
-              >5</add></fw><cb/><lb xml:id="VC_LVIII_lb_005r_01"/><damage agent="water"><w>sacerdo</w><gap atLeast="2"
+
+            <pb facs="data/images/single/LVIII-005r.jpg" n="5r" xml:id="VC_LVIII_folio_005r"/>
+            
+            <fw place="bottom-right" type="fol">
+              <add hand="unknown">5</add></fw>
+            
+            <cb/>
+            <lb xml:id="VC_LVIII_lb_005r_01"/><damage agent="water"><w>sacerdo</w><gap atLeast="2"
                 atMost="3" reason="illegible" unit="char"/>
               <w><c corresp="#v">u</c>ulgus</w>. <space quantity="2" unit="char"/>Sacer<gap reason="illegible"/>
               <lb xml:id="VC_LVIII_lb_005r_02"/><gap reason="illegible"/>
@@ -1863,7 +1869,13 @@
                 <w>l<g ref="#inodot"/>bros</w></reg>
             </choice>
             <w>conscr<g ref="#inodot"/>bunt</w>
-            <pb n="5v" xml:id="VC_LVIII_folio_005v"/><cb/><lb xml:id="VC_LVIII_lb_005v_01"/><damage agent="water">
+
+            <pb facs="data/images/single/LVIII-005v.jpg" n="5v" xml:id="VC_LVIII_folio_005v"/>
+            
+            <cb/>
+            
+            <lb xml:id="VC_LVIII_lb_005v_01"/>
+            <damage agent="water">
               <lb xml:id="VC_LVIII_lb_005v_02"/>
               <lb xml:id="VC_LVIII_lb_005v_03"/>
               <lb xml:id="VC_LVIII_lb_005v_04"/><!-- integrare con l'edizione Oxford -->
@@ -2328,8 +2340,12 @@
               <reg><w>a</w>
                 <w>pler<g ref="#inodot"/>sque</w></reg>
             </choice>
-            <pb n="6r" xml:id="VC_LVIII_folio_006r"/><fw place="bottom-right" type="fol"><add hand="unknown"
-              >6</add></fw><cb/>
+
+            <pb facs="data/images/single/LVIII-006r.jpg" n="6r" xml:id="VC_LVIII_folio_006r"/>
+
+            <fw place="bottom-right" type="fol"><add hand="unknown">6</add></fw>
+            
+            <cb/>
             <lb xml:id="VC_LVIII_lb_006r_01"/><damage agent="water">
               <lb xml:id="VC_LVIII_lb_006r_02"/>
               <lb xml:id="VC_LVIII_lb_006r_03"/>
@@ -2857,7 +2873,7 @@
             <w>orat<g ref="#inodot"/>on<g ref="#inodot"/>s</w>
             <w>v<g ref="#inodot"/><g ref="#inodot"/><g ref="#inodot"/></w>
             <w><c corresp="#v">u</c>ox</w>
-            <pb n="6v" xml:id="VC_LVIII_folio_006v"/><cb/><lb/><damage agent="water" next="#damage_06v_2"
+            <pb facs="data/images/single/LVIII-006v.jpg" n="6v" xml:id="VC_LVIII_folio_006v"/><cb/><lb/><damage agent="water" next="#damage_06v_2"
               xml:id="damage_06v_1">
               <lb xml:id="VC_LVIII_lb_006v_01"/>
               <lb xml:id="VC_LVIII_lb_006v_02"/>
@@ -3327,7 +3343,7 @@
             <w>meandros</w>. <w><hi rend="double">a</hi>pud</w>
             <w>nos</w>
             <w>alexan<add place="below">der</add></w>
-            <pb n="7r" xml:id="VC_LVIII_folio_007r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-007r.jpg" n="7r" xml:id="VC_LVIII_folio_007r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >7</add></fw><cb/><lb xml:id="VC_LVIII_lb_007r_01"/><damage agent="water">
               <lb xml:id="VC_LVIII_lb_007r_02"/>
               <lb xml:id="VC_LVIII_lb_007r_03"/>
@@ -3808,7 +3824,7 @@
             <w>nec</w>
             <w>natura</w>
             <w>nec</w>
-            <pb n="7v" xml:id="VC_LVIII_folio_007v"/><cb/><lb xml:id="VC_LVIII_lb_007v_01"/><damage>
+            <pb facs="data/images/single/LVIII-007v.jpg" n="7v" xml:id="VC_LVIII_folio_007v"/><cb/><lb xml:id="VC_LVIII_lb_007v_01"/><damage>
               <lb xml:id="VC_LVIII_lb_007v_02"/>
               <lb xml:id="VC_LVIII_lb_007v_03"/>
               <lb xml:id="VC_LVIII_lb_007v_04"/>
@@ -4287,7 +4303,7 @@
             <w>sunt</w>
             <w>qu<g ref="#inodot"/>a</w>
             <w>al<g ref="#inodot"/>unde</w>
-            <pb n="8r" xml:id="VC_LVIII_folio_008r"/><fw place="bottom-right" type="folio"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-008r.jpg" n="8r" xml:id="VC_LVIII_folio_008r"/><fw place="bottom-right" type="folio"><add hand="unknown"
               >8</add></fw><cb/><lb xml:id="VC_LVIII_lb_008r_01"/>
             <lb xml:id="VC_LVIII_lb_008r_02"/>
             <lb xml:id="VC_LVIII_lb_008r_03"/>
@@ -4773,7 +4789,7 @@
               </choice></w>
             <w>s<g ref="#ydot"/>llaba</w>
             <w>exeat</w>
-            <pb n="8v" xml:id="VC_LVIII_folio_008v"/><cb/><lb xml:id="VC_LVIII_lb_008v_01"/><damage agent="water">
+            <pb facs="data/images/single/LVIII-008v.jpg" n="8v" xml:id="VC_LVIII_folio_008v"/><cb/><lb xml:id="VC_LVIII_lb_008v_01"/><damage agent="water">
               <lb xml:id="VC_LVIII_lb_008v_02"/>
               <lb xml:id="VC_LVIII_lb_008v_03"/>
               <lb xml:id="VC_LVIII_lb_008v_04"/></damage></p>
@@ -5289,7 +5305,7 @@
                 <w>res</w></orig>
               <reg><w>loquellares</w></reg>
             </choice>
-            <pb n="9r" xml:id="VC_LVIII_folio_009r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-009r.jpg" n="9r" xml:id="VC_LVIII_folio_009r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >9</add></fw><cb/><lb xml:id="VC_LVIII_lb_009r_01"/><damage><w><c corresp="#v">u</c>ero</w>
               <w>qu<g ref="#inodot"/>a</w>
               <w>loq</w>
@@ -5817,8 +5833,11 @@
                 <expan>gent<g ref="#inodot"/>l<g ref="#inodot"/><ex>um</ex></expan>
               </choice></w>
             <lb xml:id="VC_LVIII_lb_009r_70"/><w>spond<g ref="#inodot"/>ales</w>
-            <w>nom<g ref="#inodot"/>nabantur</w>. <pb n="9v" xml:id="VC_LVIII_folio_009v"/><cb/><lb
-              xml:id="VC_LVIII_lb_009v_01"/><damage>
+            <w>nom<g ref="#inodot"/>nabantur</w>.
+            
+            <pb facs="data/images/single/LVIII-009v.jpg" n="9v" xml:id="VC_LVIII_folio_009v"/><cb/>
+            
+            <lb xml:id="VC_LVIII_lb_009v_01"/><damage>
               <lb xml:id="VC_LVIII_lb_009v_02"/>
               <lb xml:id="VC_LVIII_lb_009v_03"/>
               <lb xml:id="VC_LVIII_lb_009v_04"/>
@@ -6314,8 +6333,11 @@
                 <expan>tr<g ref="#inodot"/>pl<ex>um</ex></expan>
               </choice></w>
             <w><g ref="#slongtlig"/></w>
-            <pb n="10r" xml:id="VC_LVIII_folio_010r"/><fw place="bottom-right" type="fol"><add hand="unknown"
-              >10</add></fw><cb/><lb xml:id="VC_LVIII_lb_010r_01"/><damage>
+
+            <pb facs="data/images/single/LVIII-010r.jpg" n="10r" xml:id="VC_LVIII_folio_010r"/>
+            
+            <fw place="bottom-right" type="fol"><add hand="unknown">10</add></fw><cb/><lb xml:id="VC_LVIII_lb_010r_01"/>
+            <damage>
               <lb xml:id="VC_LVIII_lb_010r_02"/>
               <lb xml:id="VC_LVIII_lb_010r_03"/>
               <lb xml:id="VC_LVIII_lb_010r_04"/>
@@ -6814,8 +6836,12 @@
             <w>C<g ref="#inodot"/>rcum</w>
             <w>flexus</w>
             <w>qu<g ref="#inodot"/>a</w>
-            <pb n="10v" xml:id="VC_LVIII_folio_010v"/><fw place="top-centre" type="header"><add hand="unknown">L<g
-                  ref="#inodot"/>B</add></fw><cb/><lb xml:id="VC_LVIII_lb_010v_01"/><damage><w>de</w>
+
+            <pb facs="data/images/single/LVIII-010v.jpg" n="10v" xml:id="VC_LVIII_folio_010v"/>
+            
+            <fw place="top-centre" type="header"><add hand="unknown">L<g ref="#inodot"/>B</add></fw>
+            
+            <cb/><lb xml:id="VC_LVIII_lb_010v_01"/><damage><w>de</w>
               <w>a<supplied resp="#aan">cu</supplied>to</w>
               <w><am><g ref="#amp"/></am></w>
               <w>gra<c corresp="#v">u</c><g ref="#inodot"/></w>
@@ -7357,10 +7383,14 @@
               <reg><w>DE</w>
                 <w>POSITURIS</w></reg>
             </choice></head>
-          <pb n="11r" xml:id="VC_LVIII_folio_011r"/>
+
+          <pb facs="data/images/single/LVIII-011r.jpg" n="11r" xml:id="VC_LVIII_folio_011r"/>
+
           <fw place="top-centre" type="header"><add hand="unknown">I</add></fw>
           <fw place="bottom-right" type="fol"><add hand="unknown">11</add></fw>
+
           <cb/>
+
           <lb xml:id="VC_LVIII_lb_011r_01"/>
           <p><damage><w><hi rend="init">P</hi>os</w>
               <lb xml:id="VC_LVIII_lb_011r_02"/><w>pe</w>
@@ -7909,7 +7939,11 @@
             <add place="above"><w>punctos</w>
               <w><g ref="#inodot"/>acens</w></add>
             <w>pon<g ref="#inodot"/>tur</w>
-            <pb n="11v" xml:id="VC_LVIII_folio_011v"/><cb/><lb xml:id="VC_LVIII_lb_011v_01"/><w>In</w>
+
+            <pb facs="data/images/single/LVIII-011v.jpg" n="11v" xml:id="VC_LVIII_folio_011v"/>
+            
+            <cb/>
+            <lb xml:id="VC_LVIII_lb_011v_01"/><w>In</w>
             <w>h<g ref="#inodot"/>s</w>
             <w>loc<g ref="#inodot"/>s</w>
             <w>quae</w>
@@ -8550,8 +8584,15 @@
             <add place="above">ub<g ref="#inodot"/></add>
             <w>lector</w>
             <w><g ref="#inodot"/>nl<g ref="#inodot"/></w>
-            <pb n="12r" xml:id="VC_LVIII_folio_012r"/><fw place="bottom-right" type="fol"><add hand="unknown"
-              >12</add></fw><cb/><lb xml:id="VC_LVIII_lb_012r_01"/><damage>
+
+            <pb facs="data/images/single/LVIII-012r.jpg" n="12r" xml:id="VC_LVIII_folio_012r"/>
+            
+            <fw place="bottom-right" type="fol">
+              <add hand="unknown">12</add></fw>
+            
+            <cb/>
+            <lb xml:id="VC_LVIII_lb_012r_01"/>            
+            <damage>
               <lb xml:id="VC_LVIII_lb_012r_02"/>
               <lb xml:id="VC_LVIII_lb_012r_03"/>
               <lb xml:id="VC_LVIII_lb_012r_04"/></damage></p>
@@ -9020,7 +9061,7 @@
             <w><c corresp="#v">u</c>ellent</w>
             <w>haec</w>
             <w>l<g ref="#inodot"/>tterae</w>.</p>
-          <pb n="12v" xml:id="VC_LVIII_folio_012v"/>
+          <pb facs="data/images/single/LVIII-012v.jpg" n="12v" xml:id="VC_LVIII_folio_012v"/>
           <cb/>
           <lb xml:id="VC_LVIII_lb_012v_01"/>
           <p><damage><persName><w>Cesar</w></persName>
@@ -9528,7 +9569,7 @@
             <w>scr<g ref="#inodot"/>b<g ref="#inodot"/>tur</w>
             <w>qu<g ref="#inodot"/>a</w>
             <w>forma</w>
-            <pb n="13r" xml:id="VC_LVIII_folio_013r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-013r.jpg" n="13r" xml:id="VC_LVIII_folio_013r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >13</add></fw><cb/><lb xml:id="VC_LVIII_lb_013r_01"/><damage><w>f<g ref="#inodot"/>l<g ref="#inodot"
                 />us</w>
               <lb xml:id="VC_LVIII_lb_013r_02"/><w>qua</w>
@@ -10110,7 +10151,7 @@
                 <expan><ex>per</ex></expan>
               </choice></w>
             <w>d</w>
-            <pb n="13v" xml:id="VC_LVIII_folio_013v"/><cb/><lb xml:id="VC_LVIII_lb_013v_01"/><damage>
+            <pb facs="data/images/single/LVIII-013v.jpg" n="13v" xml:id="VC_LVIII_folio_013v"/><cb/><lb xml:id="VC_LVIII_lb_013v_01"/><damage>
               <lb xml:id="VC_LVIII_lb_013v_02"/><w>f<g ref="#inodot"/>nales</w>
               <w>duas</w>
               <w>l<g ref="#inodot"/>tteras</w>
@@ -10612,7 +10653,7 @@
             <w>omn<g ref="#inodot"/>a</w>
             <w>nom<g ref="#inodot"/>na</w><note resp="#aan">Nel margine si trova un'aggiunta non facilmente leggibile
               (consultare il ms. fisico).</note>
-            <pb n="14r" xml:id="VC_LVIII_folio_014r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-014r.jpg" n="14r" xml:id="VC_LVIII_folio_014r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >14</add></fw><cb/><lb xml:id="VC_LVIII_lb_014r_01"/><damage>
               <lb xml:id="VC_LVIII_lb_014r_02"/>
               <lb xml:id="VC_LVIII_lb_014r_03"/>
@@ -10798,8 +10839,9 @@
             <w><am><g ref="#amp"/></am></w>
             <w>grec<g ref="#inodot"/>s</w></p>
         </div>
-        <lb xml:id="VC_LVIII_lb_014r_26"/>
+
         <div>
+          <lb xml:id="VC_LVIII_lb_014r_26"/>
           <head><w><choice>
                 <orig>DEGLOSIS</orig>
                 <reg><w>DE</w>
@@ -10944,8 +10986,9 @@
             <w>s<g ref="#inodot"/>c</w>
             <w>etcetera</w></p>
         </div>
-        <lb xml:id="VC_LVIII_lb_014r_52"/>
+
         <div>
+          <lb xml:id="VC_LVIII_lb_014r_52"/>
           <head><choice>
               <orig><w>DEBARBARISMO</w></orig>
               <reg><w>DE</w>
@@ -11084,7 +11127,7 @@
             <w>Item</w>
             <w>quando</w>
             <w><g ref="#inodot"/>n</w>
-            <pb n="14v" xml:id="VC_LVIII_folio_014v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
+            <pb facs="data/images/single/LVIII-014v.jpg" n="14v" xml:id="VC_LVIII_folio_014v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
                   ref="#inodot"/>B</add></fw><cb/><lb xml:id="VC_LVIII_lb_014v_01"/><damage>
               <lb xml:id="VC_LVIII_lb_014v_02"/>
               <lb xml:id="VC_LVIII_lb_014v_03"/><w><hi rend="double">b</hi>arbar<g ref="#inodot"/>s<supplied resp="#aan"
@@ -11594,7 +11637,7 @@
               </choice></w>
             <w>recte</w>
             <w>loquend<g ref="#inodot"/></w>
-            <pb n="15r" xml:id="VC_LVIII_folio_015r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-015r.jpg" n="15r" xml:id="VC_LVIII_folio_015r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >15</add></fw><cb/><damage><lb xml:id="VC_LVIII_lb_015r_01"/><w>te<supplied resp="#aan" source="#Lindsay"
                   >ne</supplied>re</w>
               <w><g ref="#slongtlig"/>ud<am><g ref="#amp"/></am></w>.<space quantity="3" unit="char"/></damage></p>
@@ -12093,7 +12136,7 @@
             <w>pro</w>
             <w>contemno</w>
             <w><hi rend="double">s</hi><g ref="#inodot"/>ncope</w>
-            <pb n="15v" xml:id="VC_LVIII_folio_015v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
+            <pb facs="data/images/single/LVIII-015v.jpg" n="15v" xml:id="VC_LVIII_folio_015v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
                   ref="#inodot"/>B</add></fw><cb/><lb xml:id="VC_LVIII_lb_015v_01"/><damage><w>ab</w>
               <lb xml:id="VC_LVIII_lb_015v_02"/><w>Apocop</w>
               <lb xml:id="VC_LVIII_lb_015v_03"/><w>product<g ref="#inodot"/></w>
@@ -12595,7 +12638,7 @@
             <w><hi rend="double">a</hi>nad<g ref="#inodot"/>plos<g ref="#inodot"/>s</w>
             <w>e<g ref="#slongtlig"/></w>
             <w>quando</w>
-            <pb n="16r" xml:id="VC_LVIII_folio_016r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-016r.jpg" n="16r" xml:id="VC_LVIII_folio_016r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >16</add></fw><cb/><lb xml:id="VC_LVIII_lb_016r_01"/><damage><w>ab</w>
               <w>eodem</w>
               <w><c corresp="#v">u</c>erbo</w>
@@ -13212,7 +13255,7 @@
                 <abbr>quor<am><g ref="#umacr"/></am></abbr>
                 <expan>quor<ex>um</ex></expan>
               </choice></w>
-            <pb n="16v" xml:id="VC_LVIII_folio_016v"/><fw place="top-centre" type="head"><damage><add hand="unknown"
+            <pb facs="data/images/single/LVIII-016v.jpg" n="16v" xml:id="VC_LVIII_folio_016v"/><fw place="top-centre" type="head"><damage><add hand="unknown"
                     ><supplied resp="#aan">L<g ref="#inodot"/>B</supplied></add></damage></fw><cb/><lb
               xml:id="VC_LVIII_lb_016v_01"/><damage><w>omn<g ref="#inodot"/>um</w>
               <w>nom<g ref="#inodot"/>na</w>
@@ -13752,7 +13795,7 @@
                   <abbr>cerer<am><g ref="#emacr"/></am></abbr>
                   <expan>cerer<ex>em</ex></expan>
                 </choice></w></persName>
-            <pb n="17r" xml:id="VC_LVIII_folio_017r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-17r.jpg" n="17r" xml:id="VC_LVIII_folio_017r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >17</add></fw><cb/><lb xml:id="VC_LVIII_lb_017r_01"/><damage><w>frument<g ref="#inodot"/></w>
               <w><g ref="#inodot"/>n<c corresp="#v">u</c>entr<g ref="#inodot"/>cem</w>
               <w><g ref="#inodot"/>ntellegere</w>
@@ -14340,7 +14383,7 @@
             <w>ex</w>
             <w>med<g ref="#inodot"/>o</w>
             <w>remota</w>
-            <pb n="17v" xml:id="VC_LVIII_folio_017v"/><cb/><lb xml:id="VC_LVIII_lb_017v_01"/><damage><w><g ref="#inodot"
+            <pb facs="data/images/single/LVIII-017v.jpg" n="17v" xml:id="VC_LVIII_folio_017v"/><cb/><lb xml:id="VC_LVIII_lb_017v_01"/><damage><w><g ref="#inodot"
                 />nteger</w>
               <w>sermo</w>
               <w><choice>
@@ -14888,7 +14931,7 @@
             <w>quae</w>
             <w>d<g ref="#inodot"/>ff<g ref="#inodot"/>c<g ref="#inodot"/>le</w>
             <w><g ref="#inodot"/>ntell<g ref="#inodot"/>g<g ref="#inodot"/>tur</w>
-            <pb n="18r" xml:id="VC_LVIII_folio_018r"/><fw place="top-centre" type="head"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-018r.jpg" n="18r" xml:id="VC_LVIII_folio_018r"/><fw place="top-centre" type="head"><add hand="unknown"
               >I</add></fw><fw place="bottom-right" type="fol"><add hand="unknown">18</add></fw><cb/><lb
               xml:id="VC_LVIII_lb_018r_01"/><damage><w>n<g ref="#inodot"/>s<g ref="#inodot"/></w>
               <w>aper<g ref="#inodot"/>atur</w>
@@ -15562,7 +15605,7 @@
                 <abbr><am><g ref="#pbardes"/></am>plexa</abbr>
                 <expan><ex>per</ex>plexa</expan>
               </choice></w>
-            <pb n="18v" xml:id="VC_LVIII_folio_018v"/><cb/><lb xml:id="VC_LVIII_lb_018v_01"/><damage><supplied
+            <pb facs="data/images/single/LVIII-018v.jpg" n="18v" xml:id="VC_LVIII_folio_018v"/><cb/><lb xml:id="VC_LVIII_lb_018v_01"/><damage><supplied
                 resp="#aan" source="#Lindsay"><w>numero</w>
                 <w>sed</w>
                 <w>recta</w>
@@ -15674,8 +15717,9 @@
                 <add place="above">en</add>
               </subst>derunt</w>.</p>
         </div>
-        <lb xml:id="VC_LVIII_lb_018v_17"/>
+
         <div>
+          <lb xml:id="VC_LVIII_lb_018v_17"/>
           <head><w>DE</w>
             <w>METRIS</w></head>
           <lb xml:id="VC_LVIII_lb_018v_18"/>
@@ -16099,7 +16143,7 @@
             <w><hi rend="double">n</hi>am</w>
             <w>h<del><g ref="#inodot"/></del>ero</w>
             <w>eas</w>
-            <pb n="19r" xml:id="VC_LVIII_folio_019r"/><fw place="bottom-right" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-019r.jpg" n="19r" xml:id="VC_LVIII_folio_019r"/><fw place="bottom-right" type="fol"><add hand="unknown"
               >19</add></fw><cb/><lb xml:id="VC_LVIII_lb_019r_01"/><damage><w>appellantur</w>
               <w><c corresp="#v">u</c><g ref="#inodot"/>r<g ref="#inodot"/></w>
               <w>quas<g ref="#inodot"/></w>
@@ -16722,7 +16766,7 @@
             <w>tantum</w>
             <w><g ref="#inodot"/>n</w>
             <gap reason="illegible"/>
-            <pb n="19v" xml:id="VC_LVIII_folio_019v"/><cb/><lb xml:id="VC_LVIII_lb_019v_01"/><damage><w><hi
+            <pb facs="data/images/single/LVIII-019v.jpg" n="19v" xml:id="VC_LVIII_folio_019v"/><cb/><lb xml:id="VC_LVIII_lb_019v_01"/><damage><w><hi
                   rend="double"><c corresp="#v">u</c></hi>ocatum</w>
               <w>autem</w>
               <w>ep<g ref="#inodot"/>thalam<g ref="#inodot"/>um</w>
@@ -17058,9 +17102,9 @@
             <del><w>de</w></del>
             <w><del>ege</del><lb xml:id="VC_LVIII_lb_019v_42"/><add>e</add>n<add place="above">e</add>idos</w></p>
         </div>
-        <space quantity="5" unit="char"/>
+        
         <div>
-          <head><w>DE</w>
+          <space quantity="5" unit="char"/><!-- CHECK --><head><w>DE</w>
             <w>FABULA</w></head>
           <lb xml:id="VC_LVIII_lb_019v_43"/>
           <p><w><hi rend="init">F</hi>abulas</w>
@@ -17277,7 +17321,7 @@
             <w>orrens</w>
             <w>pr<g ref="#inodot"/>ma</w>
             <w>adolescent<g ref="#inodot"/>a</w>
-            <pb n="20r" xml:id="VC_LVIII_folio_020r"/><fw place="bottom-righ" type="fol"><add hand="unknown"
+            <pb facs="data/images/single/LVIII-020r.jpg" n="20r" xml:id="VC_LVIII_folio_020r"/><fw place="bottom-righ" type="fol"><add hand="unknown"
               >20</add></fw><cb/><lb xml:id="VC_LVIII_lb_020r_01"/><damage><supplied resp="#aan" source="#Lindsay"
                   ><w>ut</w>
                 <w>leo</w>
@@ -17791,7 +17835,7 @@
                 <abbr><am><g ref="#pbardes"/></am></abbr>
                 <expan><ex>per</ex></expan>
               </choice></w>
-            <w>h<g ref="#inodot"/><g ref="#slongtlig"/>o<pb n="20v" xml:id="VC_LVIII_folio_020v"/><cb/><lb
+            <w>h<g ref="#inodot"/><g ref="#slongtlig"/>o<pb facs="data/images/single/LVIII-020v.jpg" n="20v" xml:id="VC_LVIII_folio_020v"/><cb/><lb
                 xml:id="VC_LVIII_lb_020v_01"/>r<g ref="#inodot"/>am</w>
             <w>summa</w>
             <supplied resp="#aan" source="#Lindsay"><w>retro</w></supplied>
@@ -18026,33 +18070,39 @@
               </choice></w>
             <w>sunt</w></p>
         </div>
-        <lb xml:id="VC_LVIII_lb_020v_32"/>
+
         <div type="explicit">
+          <lb xml:id="VC_LVIII_lb_020v_32"/>
           <head>------- <lb xml:id="VC_LVIII_lb_020v_33"/><w>EXPL<g ref="#inodot"/>B</w>
             <w>PR<g ref="#inodot"/>MUS</w>
             <lb xml:id="VC_LVIII_lb_020v_34"/>------- <lb xml:id="VC_LVIII_lb_020v_35"/></head>
         </div>
+
       </div>
       <!-- fine primo libro-->
+
       <!-- Libro II-->
+
       <!-- Libro III-->
-      <pb n="42v" xml:id="VC_LVIII_folio_42v"/>
+
+      <pb facs="data/images/single/LVIII-042v.jpg" n="42v" xml:id="VC_LVIII_folio_42v"/>
       <fw place="top-centre" type="head"><add hand="unknown">L<g ref="#inodot"/>B</add></fw>
       <cb/>
       <lb xml:id="VC_LVIII_lb_42v_01"/>
       <!-- EXPL. LIBRO TERZO-->
       <lb xml:id="VC_LVIII_lb_42v_02"/>
       <!-- EXPL. LIBRO TERZO-->
-      <!-- Libro quarto -->
+
+      <!-- Libro IV -->
 
       <div n="4" type="book">
         <lb xml:id="VC_LVIII_lb_42v_03"/>
         <div type="incipit">
-          <head><w><g ref="#inodot"/></w>
-            <lb xml:id="VC_LVIII_lb_42v_04"/><w>NC<g ref="#inodot"/>PUNTCAP<g ref="#inodot"/>TULA</w>
+          <head><c><g ref="#inodot"/></c>
+            <lb xml:id="VC_LVIII_lb_42v_04"/><w>NC<g ref="#inodot"/>P<g ref="#inodot"/>UNTCAP<g ref="#inodot"/>TULA</w>
             <lb xml:id="VC_LVIII_lb_42v_05"/>
             <lb xml:id="VC_LVIII_lb_42v_06"/><w>L<g ref="#inodot"/>BR<g ref="#inodot"/></w>
-            <w>QVART<g ref="#inodot"/></w></head>
+            <w>Q<!-- CHECK -->VARTI</w></head>
           <lb xml:id="VC_LVIII_lb_42v_07"/>
           <list>
             <item n="1"><w><g ref="#inodot"/></w>
@@ -18559,7 +18609,7 @@
             <lb xml:id="VC_LVIII_lb_42v_70"/><w>DEQUATTUOR</w>
             <w>HU<g ref="#Munc"/>ORIBUS</w>
             <w>CORPORIS</w></head>
-          <pb n="43r" xml:id="VC_LVIII_folio_43r"/>
+          <pb facs="data/images/single/LVIII-043r.jpg" n="43r" xml:id="VC_LVIII_folio_43r"/>
           <fw place="top-centre" type="head"><add hand="unknown"><g ref="#inodot"/>JIJI</add></fw>
           <fw place="bottom-righ" type="fol"><add hand="unknown">43</add></fw>
           <cb/>
@@ -19058,7 +19108,7 @@
             <w><am><g ref="#amp"/></am></w>
             <w>dement<g ref="#inodot"/>a</w>
             <w>ex</w>
-            <w>co<pb n="43v" xml:id="VC_LVIII_folio_43v"/><fw place="top-centre" type="head"><add hand="unknown"><g
+            <w>co<pb facs="data/images/single/LVIII-043v.jpg" n="43v" xml:id="VC_LVIII_folio_43v"/><fw place="top-centre" type="head"><add hand="unknown"><g
                     ref="#inodot"/>L<g ref="#inodot"/>B</add></fw><cb/><lb xml:id="VC_LVIII_lb_43v_01"
                   /><damage><supplied resp="#aan" source="#Lindsay">ler<g ref="#inodot"/>ca</supplied></damage></w>
             <damage><supplied resp="#aan" source="#Lindsay"><w><c corresp="#v">u</c><g ref="#inodot"/></w>
@@ -19552,7 +19602,7 @@
                 <w>CRONICIS</w></reg>
             </choice>
             <w>MORB<g ref="#inodot"/>S</w></head>
-          <pb n="44r" xml:id="VC_LVIII_folio_44r"/>
+          <pb facs="data/images/single/LVIII-044r.jpg" n="44r" xml:id="VC_LVIII_folio_44r"/>
           <fw place="top-centre" type="head"><add hand="unknown">JJJJ</add></fw>
           <fw place="bottom-righ" type="fol"><add hand="unknown">44</add></fw>
           <cb/>
@@ -20068,7 +20118,7 @@
             <w>emath</w>
             <w>en<g ref="#inodot"/>m</w>
             <w>sangu<g ref="#inodot"/>s</w>
-            <pb n="44v" xml:id="VC_LVIII_folio_44v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
+            <pb facs="data/images/single/LVIII-044v.jpg" n="44v" xml:id="VC_LVIII_folio_44v"/><fw place="top-centre" type="head"><add hand="unknown">L<g
                   ref="#inodot"/>B</add></fw><cb/><lb xml:id="VC_LVIII_lb_44v_01"/><w>d<g ref="#inodot"/>c<g
                 ref="#inodot"/>tur</w>.<space quantity="3" unit="char"/><w><hi rend="double">t</hi>h<g ref="#inodot"
                 />s<g ref="#inodot"/>s</w>
@@ -20578,7 +20628,7 @@
             <w>CUTIS</w>
             <lb xml:id="VC_LVIII_lb_44v_71"/><w><c corresp="#V"
             >U</c>IDENUTUR</w><!-- qua @rend="align(right)" per indicare che si trova a destra nella riga?-->.</head>
-          <pb n="45r" xml:id="VC_LVIII_folio_45r"/>
+          <pb facs="data/images/single/LVIII-045r.jpg" n="45r" xml:id="VC_LVIII_folio_45r"/>
           <fw place="top-centre" type="head"><add hand="unknown">IJJJ</add></fw>
           <fw place="bottom-right" type="fol"><add hand="unknown">45</add></fw>
           <cb/>
@@ -21089,7 +21139,7 @@
             <w>et</w>
             <w>nomen</w>
             <w>accep<g ref="#inodot"/>t</w>.</p>
-          <pb n="45v" xml:id="VC_LVIII_folio_45v"/>
+          <pb facs="data/images/single/LVIII-045v.jpg" n="45v" xml:id="VC_LVIII_folio_45v"/>
           <fw place="top-centre" type="head"><add hand="unknown">L<g ref="#inodot"/>B</add></fw>
           <cb/>
           <lb xml:id="VC_LVIII_lb_45v_01"/>
@@ -21652,7 +21702,7 @@
                 <w>pest<g ref="#inodot"/>s</w></reg>
             </choice>
             <w>peste</w>
-            <w>sol<pb n="46r" xml:id="VC_LVIII_folio_46r"/><fw place="top-centre" type="head"><add hand="unknown"
+            <w>sol<pb facs="data/images/single/LVIII-046r.jpg" n="46r" xml:id="VC_LVIII_folio_46r"/><fw place="top-centre" type="head"><add hand="unknown"
                   >JJJJ</add></fw><fw place="bottom-right" type="fol"><add hand="unknown">46</add></fw><cb/><lb
                 xml:id="VC_LVIII_lb_46r_01"/><damage><c corresp="#v">u</c>atur</damage></w>. <damage><w><hi
                   rend="double">c</hi>ata<g ref="#slongtlig"/><g ref="#inodot"/>ca</w>
@@ -22214,7 +22264,7 @@
               </choice></w>
             <w>fac<g ref="#inodot"/>t</w>.</p>
         </div>
-        <pb n="46v" xml:id="VC_LVIII_folio_46v"/>
+        <pb facs="data/images/single/LVIII-046v.jpg" n="46v" xml:id="VC_LVIII_folio_46v"/>
         <fw place="top-left" type="head"><add hand="unknown">L<g ref="#inodot"/>B</add></fw>
         <fw place="top-right" type="head"><add hand="unknown">JJJJ</add></fw>
         <cb/>
@@ -22746,7 +22796,7 @@
             <w><am><g ref="#amp"/></am></w>
             <w>propr<g ref="#inodot"/>ae</w>
             <w>mater<g ref="#inodot"/>ae</w>
-            <pb n="47r" xml:id="VC_LVIII_folio_47r"/><cb/><lb xml:id="VC_LVIII_lb_47r_01"/><w>odorem</w>
+            <pb facs="data/images/single/LVIII-047r.jpg" n="47r" xml:id="VC_LVIII_folio_47r"/><cb/><lb xml:id="VC_LVIII_lb_47r_01"/><w>odorem</w>
             <w>referunt</w> . <w>ex</w>
             <w>h<g ref="#inodot"/>s</w>
             <w><choice>
