@@ -225,9 +225,9 @@
         <head place="inline" rend="cap red">
           <reg>
             <w>
-              <choice>
-                <sic>PREFATIO</sic>
-                <corr resp="#EB">PRAEFATIO</corr>
+              <choice><!-- CHECK modified from original sic/corr -->
+                <orig>PREFATIO</orig>
+                <reg resp="#EB">PRAEFATIO</reg>
               </choice>
             </w>
             <w>EINHARDI</w>
@@ -252,7 +252,8 @@
               <expan>atq<ex>ue</ex></expan>
             </choice>
           </w>
-          <w>addi <orig rend="red"><w><sic>PREFATIO</sic></w> <w>EIN HARDI</w></orig><lb n="2" type="rubric" xml:id="CXLIX_lb_146r_02"/><c corresp="#v">u</c>ina</w>
+          <w>addi <orig rend="red"><w><sic>PREFATIO</sic></w> <w>EIN HARDI</w></orig>
+            <lb n="2" type="rubric" xml:id="CXLIX_lb_146r_02"/><c corresp="#v">u</c>ina</w>
           <w>officia</w>
           <w>celebranda</w>
           <w>c<g ref="#amp"/>teri<g ref="#slong"/></w>

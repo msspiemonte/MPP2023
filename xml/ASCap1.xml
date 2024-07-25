@@ -12,18 +12,35 @@
           <resp>Transcription and XML/TEI encoding:</resp>
           <name>Biagio Luca Guarnaccio</name>
         </respStmt>
+        <respStmt xml:id="GB">
+          <resp>Text of the Manuscript Description:</resp>
+          <name>Gionata Brusa</name>
+        </respStmt>
+        <respStmt xml:id="RRDT">
+          <resp>Revision, correction and integration of the TEI encoding (including the Manuscript Description section
+            in the &lt;msDesc&gt; element):</resp>
+          <name>Roberto Rosselli Del Turco</name>
+        </respStmt>
       </titleStmt>
+
       <publicationStmt>
         <p/>
       </publicationStmt>
+
       <sourceDesc>
+        
+        <bibl>
+          <author>Gionata Brusa</author> (Julius-Maximilian-Universität Würzburg), <title>Scheda catalografica del
+            ms. <title>Liber Capituli</title> (Alba, Archivio Storico Capitolare, 1)</title>.
+        </bibl>
+
         <msDesc>
           <msIdentifier>
             <country>Italy</country>
             <settlement>Alba <region>Cuneo (CN)</region></settlement>
             <repository>Archivio Storico Diocesano di Alba (CN)</repository>
             <idno xml:id="AsCap1">ASCap1</idno>
-            <msName>Liber Mortuorum</msName>
+            <msName>Liber Capituli</msName>
           </msIdentifier>
           <physDesc>
             <objectDesc form="codex">
@@ -44,6 +61,8 @@
             <p><origDate>XII-XIX secc.</origDate></p>
           </history>
         </msDesc>
+
+        <!--    ########## Lista persone ##########    -->
 
         <listPerson>
           <person>
@@ -1544,6 +1563,8 @@
           </person>
         </listPerson>
 
+        <!--    ########## Lista luoghi ##########    -->
+
         <listPlace>
           <place>
             <placeName xml:id="Barbariscus" xml:lang="latin">Barbariscus</placeName>
@@ -1696,6 +1717,8 @@
             <placeName xml:id="quartSIohannis" xml:lang="latin">quarterius Sancti Iohannis</placeName>
           </place>
         </listPlace>
+
+        <!--    ########## Lista organizzazioni ed enti di vario tipo ##########    -->
 
         <listOrg>
           <org>
@@ -1890,6 +1913,8 @@
           </org>
         </listOrg>
 
+        <!--    ########## Bibliografia relativa al manoscritto ##########    -->
+
         <listBibl>
           <bibl>
             <author ref="#A.Martini"><name>Aldo</name><surname>Martini</surname></author>
@@ -2027,6 +2052,7 @@
             <biblScope unit="pages">1393-1403</biblScope>
           </bibl>
         </listBibl>
+
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
