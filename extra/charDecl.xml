@@ -1072,6 +1072,13 @@
           <mapping type="normalized">a</mapping>
         </char>
         
+        <char xml:id="Atilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER A WITH TILDE"/>
+          <mapping type="codepoint">U+00C3</mapping>
+          <mapping type="diplomatic">Ã</mapping>
+          <mapping type="normalized">A</mapping>
+        </char>
+        
         <char xml:id="otilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER O WITH TILDE"/>
           <mapping type="codepoint">U+00F5</mapping>
