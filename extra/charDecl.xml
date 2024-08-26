@@ -1743,8 +1743,22 @@
 
         <char xml:id="combovl">
           <unicodeProp name="Name" value="COMBINING OVERLINE"/>
+          <mapping type="codepoint">U+0305</mapping>
           <mapping type="diplomatic">̅</mapping>
         </char>
+
+        <char xml:id="combdblmacr">
+          <unicodeProp name="Name" value="COMBINING DOUBLE MACRON"/>
+          <mapping type="codepoint">U+035E</mapping>
+          <mapping type="diplomatic">͞</mapping>
+        </char>
+        
+        <char xml:id="combovlhigh">
+          <unicodeProp name="Name" value="COMBINING HIGH OVERLINE WITH FIXED HEIGHT (FULL-WIDTH)"/>
+          <mapping type="codepoint">U+F00C</mapping>
+          <mapping type="diplomatic">◌</mapping>
+        </char>
+        
         <char xml:id="combdblac">
           <unicodeProp name="Name" value="COMBINING DOUBLE ACUTE ACCENT"/>
           <mapping type="codepoint">U+030B</mapping>
