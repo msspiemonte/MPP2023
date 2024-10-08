@@ -432,6 +432,13 @@
           <mapping type="normalized">c</mapping>
         </glyph>
 
+        <char xml:id="denl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL D"/>
+          <mapping subtype="MUFI-PUA" type="codepoint">U+EEE3</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">D</mapping>
+        </char>
+        
         <char xml:id="dcaron">
           <unicodeProp name="Name" value="LATIN SMALL LETTER D WITH CARON"/>
           <mapping type="codepoint">U+010F</mapping>
