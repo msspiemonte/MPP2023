@@ -44,6 +44,7 @@
           - fix all elements where a CHECK is needed
           - check if MUFI PUA characters have been included in the latest Unicode version and modify <localProp> 
             to <unicodeProp> accordingly
+          - add eunc
           
         -->
 
