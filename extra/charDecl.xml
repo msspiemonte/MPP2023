@@ -1163,6 +1163,13 @@
           <mapping type="normalized">n</mapping>
         </char>
         
+        <char xml:id="Ntilde">
+          <unicodeProp name="Name" value="LATIN CAPITAL LETTER N WITH TILDE"/>
+          <mapping type="codepoint">U+00D1</mapping>
+          <mapping type="diplomatic">Ñ</mapping>
+          <mapping type="normalized">N</mapping>
+        </char>
+        
         <char xml:id="lstrok">
           <unicodeProp name="Name" value="LATIN SMALL LETTER L WITH STROKE"/>
           <mapping type="codepoint">U+0142</mapping>
