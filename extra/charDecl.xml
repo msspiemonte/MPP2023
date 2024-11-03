@@ -1321,6 +1321,12 @@
           <mapping type="diplomatic">̉</mapping>
         </char>
 
+        <char xml:id="combcurlhigh">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+F1C5</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+        
         <char xml:id="ercurl">
           <unicodeProp name="Name" value="COMBINING ABBREVIATION MARK ZIGZAG ABOVE CURLY FORM"/>
           <mapping subtype="MUFI-PUA" type="codepoint">F1C8</mapping>
