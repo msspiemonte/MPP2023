@@ -609,6 +609,13 @@
           <mapping type="normalized">p</mapping>
         </char>
 
+        <char xml:id="penl">
+          <unicodeProp name="Name" value="LATIN ENLARGED LETTER SMALL P"/>
+          <mapping type="codepoint">U+EEF1</mapping>
+          <mapping type="diplomatic"></mapping>
+          <mapping type="normalized">p</mapping>
+        </char>
+        
         <char xml:id="pflour">
           <unicodeProp name="Name" value="LATIN SMALL LETTER P WITH FLOURISH"/>
           <mapping type="codepoint">U+A753</mapping>
