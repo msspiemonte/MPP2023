@@ -1328,6 +1328,12 @@
           <mapping type="diplomatic">̉</mapping>
         </char>
 
+        <char xml:id="combcurl">
+          <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
+          <mapping type="codepoint">U+1DCE</mapping>
+          <mapping type="diplomatic">᷎</mapping>
+        </char>
+        
         <char xml:id="combcurlhigh">
           <unicodeProp name="Name" value="COMBINING CURL HIGH POSITION"/>
           <mapping type="codepoint">U+F1C5</mapping>
