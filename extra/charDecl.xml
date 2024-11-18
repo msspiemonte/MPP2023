@@ -1371,12 +1371,18 @@
           <mapping type="diplomatic">ꝝ</mapping>
         </char>
 
+        <char xml:id="us">
+          <unicodeProp name="Name" value="COMBINING US ABOVE"/>
+          <mapping type="codepoint">U+1DD2</mapping>
+          <mapping type="diplomatic"></mapping>
+        </char>
+
         <char xml:id="usbase">
           <unicodeProp name="Name" value="LATIN ABBREVIATION SIGN SPACING BASE-LINE US"/>
           <mapping subtype="MUFI-PUA" type="codepoint">F1A6</mapping>
           <mapping type="diplomatic"></mapping>
         </char>
-
+        
         <char xml:id="usmod">
           <unicodeProp name="Name" value="MODIFIER LETTER US"/>
           <mapping type="codepoint">U+A770</mapping>
