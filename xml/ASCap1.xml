@@ -2291,12 +2291,12 @@
           <mapping type="normalized">b</mapping>
         </char>
 
-        <char xml:id="Ptilde">
+        <!--<char xml:id="Ptilde">
           <unicodeProp name="Name" value="LATIN CAPITAL LETTER P WITH TILDE"/>
           <mapping subtype="composed" type="codepoint">U+0050 + U+0303</mapping>
           <mapping type="diplomatic">P̃</mapping>
           <mapping type="normalized">P</mapping>
-        </char>
+        </char>-->
 
         <char xml:id="slongtilde">
           <unicodeProp name="Name" value="LATIN SMALL LETTER LONG S WITH TILDE"/>
@@ -3228,6 +3228,12 @@
   </teiHeader>
 
   <text n="Obituarium" type="prose" xml:id="ASCap1_LM">
+    
+    <!-- TODO
+    
+      - valori corretti per i facs e per gli n nei <pb/> (devono essere differenti?)
+
+    -->
 
     <body>
 
@@ -3717,7 +3723,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="3r" xml:id="ASCap1_folio_3r"/>
+      <pb facs="data/images/single/ASCap1-076r.jpg" n="3r" xml:id="ASCap1_folio_3r"/>
 
       <div n="3r.1" type="section">
         <ab hand="#2" n="3r.1.1">
@@ -4181,7 +4187,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="3v" xml:id="ASCap1_folio_3v"/>
+      <pb facs="data/images/single/ASCap1-076v.jpg" n="3v" xml:id="ASCap1_folio_3v"/>
 
       <div n="3v.1" type="section">
         <ab hand="#2" n="3v.1.1">
@@ -4621,7 +4627,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="4r" xml:id="ASCap1_folio_4r"/>
+      <pb facs="data/images/single/ASCap1-077r.jpg" n="4r" xml:id="ASCap1_folio_4r"/>
 
       <div n="4r.1" type="section">
         <ab hand="#2" n="4r.1.1">
@@ -5019,7 +5025,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="4v" xml:id="ASCap1_folio_4v"/>
+      <pb facs="data/images/single/ASCap1-077v.jpg" n="4v" xml:id="ASCap1_folio_4v"/>
 
       <div n="4v.1" type="section">
         <ab hand="#2" n="4v.1.1">
@@ -5460,7 +5466,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="5r" xml:id="ASCap1_folio_5r"/>
+      <pb facs="data/images/single/ASCap1-078r.jpg" n="5r" xml:id="ASCap1_folio_5r"/>
 
       <div n="5r.1" type="section">
         <ab hand="#2" n="5r.1.1">
@@ -6015,7 +6021,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="5v" xml:id="ASCap1_folio_5v"/>
+      <pb facs="data/images/single/ASCap1-078v.jpg" n="5v" xml:id="ASCap1_folio_5v"/>
 
       <div n="5v.1" type="section">
         <ab hand="#2" n="5v.1.1">
@@ -6762,7 +6768,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="6r" xml:id="ASCap1_folio_6r"/>
+      <pb facs="data/images/single/ASCap1-079r.jpg" n="6r" xml:id="ASCap1_folio_6r"/>
 
       <div n="6r.1" type="section">
         <ab hand="#2" n="6r.1.1">
@@ -7097,7 +7103,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="6v" xml:id="ASCap1_folio_6v"/>
+      <pb facs="data/images/single/ASCap1-079v.jpg" n="6v" xml:id="ASCap1_folio_6v"/>
 
       <div n="6v.1" type="section">
         <ab hand="#2" n="6v.1.1">
@@ -7345,7 +7351,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="7r" xml:id="ASCap1_folio_7r"/>
+      <pb facs="data/images/single/ASCap1-080r.jpg" n="7r" xml:id="ASCap1_folio_7r"/>
 
       <div n="7r.1" type="section">
         <ab hand="#2" n="7r.1.1">
@@ -7377,7 +7383,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="7v" xml:id="ASCap1_folio_7v"/>
+      <pb facs="data/images/single/ASCap1-080v.jpg" n="7v" xml:id="ASCap1_folio_7v"/>
 
       <div n="7v.1" type="section">
         <ab hand="#2" n="7v.1.1">
@@ -7541,7 +7547,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="8r" xml:id="ASCap1_folio_8r"/>
+      <pb facs="data/images/single/ASCap1-081r.jpg" n="8r" xml:id="ASCap1_folio_8r"/>
 
       <div n="8r.1" type="section">
         <ab hand="#2" n="8r.1.1">
@@ -7967,7 +7973,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="8v" xml:id="ASCap1_folio_8v"/>
+      <pb facs="data/images/single/ASCap1-081v.jpg" n="8v" xml:id="ASCap1_folio_8v"/>
 
       <div n="8v.1" type="section">
         <ab hand="#2" n="8v.1.1">
@@ -8447,7 +8453,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="9r" xml:id="ASCap1_folio_9r"/>
+      <pb facs="data/images/single/ASCap1-082r.jpg" n="9r" xml:id="ASCap1_folio_9r"/>
 
       <div n="9r.1" type="section">
         <ab hand="#2" n="9r.1.1">
@@ -8700,7 +8706,7 @@
 
 
 
-      <pb facs="data/images/single/ASCap1-0" n="9v" xml:id="ObAlb_folio_9v"/>
+      <pb facs="data/images/single/ASCap1-082v.jpg" n="9v" xml:id="ObAlb_folio_9v"/>
 
       <div n="9v.1" type="section">
         <ab hand="#2" n="9v.1.1">
@@ -8899,7 +8905,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="10r" xml:id="ObAlb_folio_10r"/>
+      <pb facs="data/images/single/ASCap1-083r.jpg" n="10r" xml:id="ObAlb_folio_10r"/>
 
       <div n="10r.1" type="section">
         <ab hand="#2" n="10r.1.1">
@@ -8963,7 +8969,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="10v" xml:id="ASCap1_folio_10v"/>
+      <pb facs="data/images/single/ASCap1-083v.jpg" n="10v" xml:id="ASCap1_folio_10v"/>
 
       <div n="10v.1" type="section">
         <ab hand="#2" n="10v.1.1">
@@ -9984,7 +9990,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="11r" xml:id="ASCap1_folio_11r"/>
+      <pb facs="data/images/single/ASCap1-084r.jpg" n="11r" xml:id="ASCap1_folio_11r"/>
 
       <div n="11r.1" type="section">
         <ab hand="#2" n="11r.1.1">
@@ -10376,7 +10382,7 @@
         </ab>
       </div>
 
-      <pb facs="data/images/single/ASCap1-0" n="11v" xml:id="ASCap1_folio_11v"/>
+      <pb facs="data/images/single/ASCap1-084v.jpg" n="11v" xml:id="ASCap1_folio_11v"/>
 
       <div n="11v.1" type="section">
         <ab hand="#2" n="11v.1.1">
@@ -10854,7 +10860,7 @@
         </ab>
       </div>
 
-      <pb n="12r" xml:id="ASCap1_folio_12r"/>
+      <pb facs="data/images/single/ASCap1-085r.jpg" n="12r" xml:id="ASCap1_folio_12r"/>
 
       <div n="12r.1" type="section">
         <ab hand="#2" n="12r.1.1">
@@ -11056,7 +11062,7 @@
         </ab>
       </div>
 
-      <pb n="12v" xml:id="ObAlb_folio_12v"/>
+      <pb facs="data/images/single/ASCap1-085v.jpg" n="12v" xml:id="ObAlb_folio_12v"/>
 
       <div n="12v.1" type="section">
         <ab hand="#2" n="12v.1.1">
@@ -11579,7 +11585,7 @@
         </ab>
       </div>
 
-      <pb n="13r" xml:id="ObAlb_folio_13r"/>
+      <pb facs="data/images/single/ASCap1-086r.jpg" n="13r" xml:id="ObAlb_folio_13r"/>
 
       <div n="13r.1" type="section">
         <ab hand="#2" n="13r.1.1">
@@ -11643,7 +11649,7 @@
         </ab>
       </div>
 
-      <pb n="13v" xml:id="ObAlb_folio_13v"/>
+      <pb facs="data/images/single/ASCap1-086v.jpg" n="13v" xml:id="ObAlb_folio_13v"/>
 
       <div n="13v.1" type="section">
         <ab hand="#2" n="13v.1.1">
@@ -11936,7 +11942,7 @@
         </ab>
       </div>
 
-      <pb n="14r" xml:id="ObAlb_folio_14r"/>
+      <pb facs="data/images/single/ASCap1-087r.jpg" n="14r" xml:id="ObAlb_folio_14r"/>
 
       <div n="14r.1" type="section">
         <ab hand="#2" n="14r.1.1">
@@ -12494,7 +12500,7 @@
         </ab>
       </div>
 
-      <pb n="14v" xml:id="ObAlb_folio_14v"/>
+      <pb facs="data/images/single/ASCap1-087v.jpg" n="14v" xml:id="ObAlb_folio_14v"/>
 
       <div n="14v.1" type="section">
         <ab hand="#2" n="14v.1.1">
@@ -12716,7 +12722,7 @@
         </ab>
       </div>
 
-      <pb n="15r" xml:id="ObAlb_folio_15r"/>
+      <pb facs="data/images/single/ASCap1-088r.jpg" n="15r" xml:id="ObAlb_folio_15r"/>
 
       <div n="15r.1" type="section">
         <ab hand="#2" n="15r.1.1">
@@ -13263,7 +13269,7 @@
         </ab>
       </div>
 
-      <pb n="15v" xml:id="ObAlb_folio_15v"/>
+      <pb facs="data/images/single/ASCap1-088v.jpg" n="15v" xml:id="ObAlb_folio_15v"/>
 
       <div n="15v.1" type="section">
         <ab hand="#2" n="15v.1.1">
@@ -13671,7 +13677,7 @@
         </ab>
       </div>
 
-      <pb n="16r" xml:id="ObAlb_folio_16r"/>
+      <pb facs="data/images/single/ASCap1-089r.jpg" n="16r" xml:id="ObAlb_folio_16r"/>
 
       <div n="16r.1" type="section">
         <ab hand="#2" n="16r.1.1">
@@ -13838,7 +13844,7 @@
         </ab>
       </div>
 
-      <pb n="16v" xml:id="ObAlb_folio_16v"/>
+      <pb facs="data/images/single/ASCap1-089v.jpg" n="16v" xml:id="ObAlb_folio_16v"/>
 
       <div n="16v.1" type="section">
         <ab hand="#2" n="16v.1.1">
@@ -13900,7 +13906,7 @@
         </ab>
       </div>
 
-      <pb n="17r" xml:id="ObAlb_folio_17r"/>
+      <pb facs="data/images/single/ASCap1-090r.jpg" n="17r" xml:id="ObAlb_folio_17r"/>
 
       <div n="17r.1" type="section">
         <ab hand="#2" n="17r.1.1">
@@ -14351,7 +14357,7 @@
         </ab>
       </div>
 
-      <pb n="17v" xml:id="ObAlb_folio_17v"/>
+      <pb facs="data/images/single/ASCap1-090v.jpg" n="17v" xml:id="ObAlb_folio_17v"/>
 
       <div n="17v.1" type="section">
         <ab hand="#2" n="17v.1.1">
@@ -14377,7 +14383,7 @@
         </ab>
       </div>
 
-      <pb n="18r" xml:id="ObAlb_folio_18r"/>
+      <pb facs="data/images/single/ASCap1-091r.jpg" n="18r" xml:id="ObAlb_folio_18r"/>
 
       <div n="18r.1" type="section">
         <ab hand="#2" n="18r.1.1">
@@ -14600,7 +14606,7 @@
         </ab>
       </div>
 
-      <pb n="18v" xml:id="ObAlb_folio_18v"/>
+      <pb facs="data/images/single/ASCap1-091v.jpg" n="18v" xml:id="ObAlb_folio_18v"/>
 
       <div n="18v.1" type="section">
         <ab hand="#2" n="18v.1.1">
@@ -14869,7 +14875,7 @@
         </ab>
       </div>
 
-      <pb n="19r" xml:id="ObAlb_folio_19r"/>
+      <pb facs="data/images/single/ASCap1-092r.jpg" n="19r" xml:id="ObAlb_folio_19r"/>
 
       <div n="19r.1" type="section">
         <ab hand="#2" n="19r.1.1">
@@ -15413,7 +15419,7 @@
         </ab>
       </div>
 
-      <pb n="19v" xml:id="ObAlb_folio_19v"/>
+      <pb facs="data/images/single/ASCap1-092v.jpg" n="19v" xml:id="ObAlb_folio_19v"/>
 
       <div n="19v.1" type="section">
         <ab hand="#2" n="19v.1.1">
@@ -15778,7 +15784,7 @@
         </ab>
       </div>
 
-      <pb n="20r" xml:id="ObAlb_folio_20r"/>
+      <pb facs="data/images/single/ASCap1-093r.jpg" n="20r" xml:id="ObAlb_folio_20r"/>
 
       <div n="20r.1" type="section">
         <ab hand="#2" n="20r.1.1">
@@ -16325,7 +16331,7 @@
         </ab>
       </div>
 
-      <pb n="20v" xml:id="ObAlb_folio_20v"/>
+      <pb facs="data/images/single/ASCap1-093v.jpg" n="20v" xml:id="ObAlb_folio_20v"/>
 
       <div n="20v.1" type="section">
         <ab hand="#2" n="20v.1.1">
@@ -16618,7 +16624,7 @@
         </ab>
       </div>
 
-      <pb n="21r" xml:id="ObAlb_folio_21r"/>
+      <pb facs="data/images/single/ASCap1-094r.jpg" n="21r" xml:id="ObAlb_folio_21r"/>
 
       <div n="21r.1" type="section">
         <ab hand="#2" n="21r.1.1">
@@ -17163,7 +17169,7 @@
         </ab>
       </div>
 
-      <pb n="21v" xml:id="ObAlb_folio_21v"/>
+      <pb facs="data/images/single/ASCap1-094v.jpg" n="21v" xml:id="ObAlb_folio_21v"/>
 
       <div n="21v.1" type="section">
         <ab hand="#2" n="21v.1.1">
@@ -17630,7 +17636,7 @@
         </ab>
       </div>
 
-      <pb n="22r" xml:id="ObAlb_folio_22r"/>
+      <pb facs="data/images/single/ASCap1-095r.jpg" n="22r" xml:id="ObAlb_folio_22r"/>
 
       <div n="22r.1" type="section">
         <ab hand="#2" n="22r.1.1">
@@ -18082,7 +18088,7 @@
         </ab>
       </div>
 
-      <pb n="22v" xml:id="ObAlb_folio_22v"/>
+      <pb facs="data/images/single/ASCap1-095v.jpg" n="22v" xml:id="ObAlb_folio_22v"/>
 
       <div n="22v.1" type="section">
         <ab hand="#2" n="22v.1.1">
@@ -18145,7 +18151,7 @@
         </ab>
       </div>
 
-      <pb n="23r" xml:id="ObAlb_folio_23r"/>
+      <pb facs="data/images/single/ASCap1-096r.jpg" n="23r" xml:id="ObAlb_folio_23r"/>
 
       <div n="23r.1" type="section">
         <ab hand="#2" n="23r.1.1">
@@ -18426,7 +18432,7 @@
         </ab>
       </div>
 
-      <pb n="23v" xml:id="ObAlb_folio_23v"/>
+      <pb facs="data/images/single/ASCap1-096v.jpg" n="23v" xml:id="ObAlb_folio_23v"/>
 
       <div n="23v.1" type="section">
         <ab hand="#2" n="23v.1.1">
@@ -18645,7 +18651,7 @@
         </ab>
       </div>
 
-      <pb n="24r" xml:id="ObAlb_folio_24r"/>
+      <pb facs="data/images/single/ASCap1-097r.jpg" n="24r" xml:id="ObAlb_folio_24r"/>
 
       <div n="24r.1" type="section">
         <ab hand="#2" n="24r.1.1">
@@ -18917,7 +18923,7 @@
         </ab>
       </div>
 
-      <pb n="24v" xml:id="ObAlb_folio_24v"/>
+      <pb facs="data/images/single/ASCap1-097v.jpg" n="24v" xml:id="ObAlb_folio_24v"/>
 
       <div n="24v.1" type="section">
         <ab hand="#2" n="24v.1.1">
@@ -19447,7 +19453,7 @@
       </div>
 
 
-      <pb n="25r" xml:id="ObAlb_folio_25r"/>
+      <pb facs="data/images/single/ASCap1-098r.jpg" n="25r" xml:id="ObAlb_folio_25r"/>
 
       <div n="25r.1" type="section">
         <ab hand="#2" n="25r.1.1">
@@ -19845,7 +19851,7 @@
         </ab>
       </div>
 
-      <pb n="25v" xml:id="ObAlb_folio_25v"/>
+      <pb facs="data/images/single/ASCap1-098v.jpg" n="25v" xml:id="ObAlb_folio_25v"/>
 
       <div n="25v.1" type="section">
         <ab hand="#2" n="25v.1.1">
@@ -19992,7 +19998,7 @@
         </ab>
       </div>
 
-      <pb n="26r" xml:id="ObAlb_folio_26r"/>
+      <pb facs="data/images/single/ASCap1-099r.jpg" n="26r" xml:id="ObAlb_folio_26r"/>
 
       <div n="26r.1" type="section">
         <ab hand="#2" n="26r.1.1">
@@ -20111,7 +20117,7 @@
         </ab>
       </div>
 
-      <pb n="26v" xml:id="ObAlb_folio_26v"/>
+      <pb facs="data/images/single/ASCap1-099v.jpg" n="26v" xml:id="ObAlb_folio_26v"/>
 
       <div n="26v.1" type="section">
         <ab hand="#2" n="26v.1.1">
@@ -20174,7 +20180,7 @@
       </div>
 
 
-      <pb n="27r" xml:id="ObAlb_folio_27r"/>
+      <pb facs="data/images/single/ASCap1-100r.jpg" n="27r" xml:id="ObAlb_folio_27r"/>
 
       <div n="27r.1" type="section">
         <ab hand="#2" n="27r.1.1">
@@ -20724,7 +20730,7 @@
         </ab>
       </div>
 
-      <pb n="27v" xml:id="ObAlb_folio_27v"/>
+      <pb facs="data/images/single/ASCap1-100v.jpg" n="27v" xml:id="ObAlb_folio_27v"/>
 
       <div n="27v.1" type="section">
         <ab hand="#2" n="27v.1.1">
@@ -21198,7 +21204,7 @@
         </ab>
       </div>
 
-      <pb n="28r" xml:id="ObAlb_folio_28r"/>
+      <pb facs="data/images/single/ASCap1-101r.jpg" n="28r" xml:id="ObAlb_folio_28r"/>
 
       <div n="28r.1" type="section">
         <ab hand="#2" n="28r.1.1">
@@ -21321,7 +21327,7 @@
         </ab>
       </div>
 
-      <pb n="28v" xml:id="ObAlb_folio_28v"/>
+      <pb facs="data/images/single/ASCap1-101v.jpg" n="28v" xml:id="ObAlb_folio_28v"/>
 
       <div n="28v.1" type="section">
         <ab hand="#2" n="28v.1.1">
@@ -21538,7 +21544,7 @@
         </ab>
       </div>
 
-      <pb n="29r" xml:id="ObAlb_folio_29r"/>
+      <pb facs="data/images/single/ASCap1-102r.jpg" n="29r" xml:id="ObAlb_folio_29r"/>
 
       <div n="29r.1" type="section">
         <ab hand="#2" n="29r.1.1">
@@ -21600,7 +21606,7 @@
         </ab>
       </div>
 
-      <pb n="29v" xml:id="ObAlb_folio_29v"/>
+      <pb facs="data/images/single/ASCap1-102v.jpg" n="29v" xml:id="ObAlb_folio_29v"/>
 
       <div n="29v.1" type="section">
         <ab hand="#2" n="29v.1.1">
@@ -21755,7 +21761,7 @@
         </ab>
       </div>
 
-      <pb n="30r" xml:id="ObAlb_folio_30r"/>
+      <pb facs="data/images/single/ASCap1-103r.jpg" n="30r" xml:id="ObAlb_folio_30r"/>
 
       <div n="30r.1" type="section">
         <ab hand="#2" n="30r.1.1">
@@ -22069,7 +22075,7 @@
         </ab>
       </div>
 
-      <pb n="30v" xml:id="ObAlb_folio_30v"/>
+      <pb facs="data/images/single/ASCap1-103v.jpg" n="30v" xml:id="ObAlb_folio_30v"/>
 
       <div n="30v.1" type="section">
         <ab hand="#2" n="30v.1.1">
@@ -22133,7 +22139,7 @@
         </ab>
       </div>
 
-      <pb n="31r" xml:id="ObAlb_folio_31r"/>
+      <pb facs="data/images/single/ASCap1-104r.jpg" n="31r" xml:id="ObAlb_folio_31r"/>
 
       <div n="31r.1" type="section">
         <ab hand="#2" n="31r.1.1">
@@ -22251,7 +22257,7 @@
         </ab>
       </div>
 
-      <pb n="31v" xml:id="ObAlb_folio_31v"/>
+      <pb facs="data/images/single/ASCap1-104v.jpg" n="31v" xml:id="ObAlb_folio_31v"/>
 
       <div n="31v.1" type="section">
         <ab hand="#2" n="31v.1.1">
@@ -22316,7 +22322,7 @@
         </ab>
       </div>
 
-      <pb n="32r" xml:id="ObAlb_folio_32r"/>
+      <pb facs="data/images/single/ASCap1-105r.jpg" n="32r" xml:id="ObAlb_folio_32r"/>
 
       <div n="32r.1" type="section">
         <ab hand="#2" n="32r.1.1">
@@ -22501,7 +22507,7 @@
         </ab>
       </div>
 
-      <pb n="32v" xml:id="ObAlb_folio_32v"/>
+      <pb facs="data/images/single/ASCap1-105v.jpg" n="32v" xml:id="ObAlb_folio_32v"/>
 
       <div n="32v.1" type="section">
         <ab hand="#2" n="32v.1.1">
@@ -22917,7 +22923,7 @@
         </ab>
       </div>
 
-      <pb n="33r" xml:id="ObAlb_folio_33r"/>
+      <pb facs="data/images/single/ASCap1-106r.jpg" n="33r" xml:id="ObAlb_folio_33r"/>
 
       <div n="33r.1" type="section">
         <ab hand="#2" n="33r.1.1">
@@ -23242,7 +23248,7 @@
         </ab>
       </div>
 
-      <pb n="33v" xml:id="ObAlb_folio_33v"/>
+      <pb facs="data/images/single/ASCap1-106v.jpg" n="33v" xml:id="ObAlb_folio_33v"/>
 
       <div n="33v.1" type="section">
         <ab hand="#2" n="33v.1.1">
@@ -23479,7 +23485,7 @@
         </ab>
       </div>
 
-      <pb n="34r" xml:id="ObAlb_folio_34r"/>
+      <pb facs="data/images/single/ASCap1-107r.jpg" n="34r" xml:id="ObAlb_folio_34r"/>
 
       <div n="34r.1" type="section">
         <ab hand="#2" n="34r.1.1">
@@ -23662,7 +23668,7 @@
         </ab>
       </div>
 
-      <pb n="34v" xml:id="ObAlb_folio_34v"/>
+      <pb facs="data/images/single/ASCap1-107v.jpg" n="34v" xml:id="ObAlb_folio_34v"/>
 
       <div n="34v.1" type="section">
         <ab hand="#2" n="34v.1.1">
@@ -24076,7 +24082,7 @@
         </ab>
       </div>
 
-      <pb n="35r" xml:id="ObAlb_folio_35r"/>
+      <pb facs="data/images/single/ASCap1-108r.jpg" n="35r" xml:id="ObAlb_folio_35r"/>
 
       <div n="35r.1" type="section">
         <ab hand="#2" n="35r.1.1">
@@ -24189,7 +24195,7 @@
         </ab>
       </div>
 
-      <pb n="35v" xml:id="ObAlb_folio_35v"/>
+      <pb facs="data/images/single/ASCap1-108v.jpg" n="35v" xml:id="ObAlb_folio_35v"/>
 
       <div n="35v.1" type="section">
         <ab hand="#2" n="35v.1.1">
@@ -24253,7 +24259,7 @@
         </ab>
       </div>
 
-      <pb n="36r" xml:id="ObAlb_folio_36r"/>
+      <pb facs="data/images/single/ASCap1-109r.jpg" n="36r" xml:id="ObAlb_folio_36r"/>
 
       <div n="36r.1" type="section">
         <ab hand="#2" n="36r.1.1">
@@ -24612,7 +24618,7 @@
         </ab>
       </div>
 
-      <pb n="36v" xml:id="ObAlb_folio_36v"/>
+      <pb facs="data/images/single/ASCap1-109v.jpg" n="36v" xml:id="ObAlb_folio_36v"/>
 
       <div n="36v.1" type="section">
         <ab hand="#2" n="36v.1.1">
@@ -25037,7 +25043,7 @@
         </ab>
       </div>
 
-      <pb n="37r" xml:id="ObAlb_folio_37r"/>
+      <pb facs="data/images/single/ASCap1-110r.jpg" n="37r" xml:id="ObAlb_folio_37r"/>
 
       <div n="37r.1" type="section">
         <ab hand="#2" n="37r.1.1">
@@ -25263,7 +25269,7 @@
         </ab>
       </div>
 
-      <pb n="37v" xml:id="ObAlb_folio_37v"/>
+      <pb facs="data/images/single/ASCap1-110v.jpg" n="37v" xml:id="ObAlb_folio_37v"/>
 
       <div n="37v.1" type="section">
         <ab hand="#2" n="37v.1.1">
@@ -25597,7 +25603,7 @@
         </ab>
       </div>
 
-      <pb n="38r" xml:id="ObAlb_folio_38r"/>
+      <pb facs="data/images/single/ASCap1-111r.jpg" n="38r" xml:id="ObAlb_folio_38r"/>
 
       <div n="38r.1" type="section">
         <ab hand="#2" n="38r.1.1">
@@ -26005,7 +26011,7 @@
         </ab>
       </div>
 
-      <pb n="38v" xml:id="ObAlb_folio_38v"/>
+      <pb facs="data/images/single/ASCap1-111v.jpg" n="38v" xml:id="ObAlb_folio_38v"/>
 
       <div n="38v.1" type="section">
         <ab hand="#2" n="38v.1.1">
@@ -26034,7 +26040,7 @@
         </ab>
       </div>
 
-      <pb n="39r" xml:id="ObAlb_folio_39r"/>
+      <pb facs="data/images/single/ASCap1-112r.jpg" n="39r" xml:id="ObAlb_folio_39r"/>
 
       <div n="39r.1" type="section">
         <ab hand="#2" n="39r.1.1">
@@ -26249,7 +26255,7 @@
         </ab>
       </div>
 
-      <pb n="40v" xml:id="ObAlb_folio_40v"/>
+      <pb facs="data/images/single/ASCap1-112v.jpg" n="40v" xml:id="ObAlb_folio_40v"/>
 
       <div n="40v.1" type="section">
         <ab hand="#2" n="40v.1.1">
@@ -26505,7 +26511,7 @@
         </ab>
       </div>
 
-      <pb n="41r" xml:id="ObAlb_folio_41r"/>
+      <pb facs="data/images/single/ASCap1-113r.jpg" n="41r" xml:id="ObAlb_folio_41r"/>
 
       <div n="41r.1" type="section">
         <ab hand="#2" n="41r.1.1">
@@ -27074,7 +27080,7 @@
         </ab>
       </div>
 
-      <pb n="41v" xml:id="ObAlb_folio_41v"/>
+      <pb facs="data/images/single/ASCap1-113v.jpg" n="41v" xml:id="ObAlb_folio_41v"/>
 
       <div n="41v.1" type="section">
         <ab hand="#2" n="41v.1.1">
@@ -27238,7 +27244,7 @@
         </ab>
       </div>
 
-      <pb n="42r" xml:id="ObAlb_folio_42r"/>
+      <pb facs="data/images/single/ASCap1-114r.jpg" n="42r" xml:id="ObAlb_folio_42r"/>
 
       <div n="42r.1" type="section">
         <ab hand="#2" n="42r.1.1">
