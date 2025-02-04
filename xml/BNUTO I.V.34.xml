@@ -3202,7 +3202,7 @@
                <lb n="13"/><w>extiterunt</w><pc>.</pc>
                <persName ref="#Caesar"><w><choice>
                         <orig>C<g ref="#aelig"/><c corresp="#ſ">s</c>ari<c corresp="#ſ">s</c></orig>
-                     </choice><reg>Caesaris</reg></w></persName>
+                     <reg>Caesaris</reg></choice></w></persName>
                <w><c corresp="#v">u</c>ero</w>
                <w>pueri</w>
                <w>mirifica</w>
