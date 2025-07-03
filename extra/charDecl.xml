@@ -872,6 +872,12 @@
           <mapping type="diplomatic"></mapping>
         </char>
 
+        <char xml:id="ettilde">
+          <localProp name="Name" value="LATIN ABBREVIATION SIGN SMALL ET WITH TILDE"/>
+          <mapping subtype="composed" type="codepoint">U+204A + U+0303</mapping>
+          <mapping type="diplomatic">⁊̃</mapping>
+        </char>        
+
         <char xml:id="thornbarslash">
           <unicodeProp name="Name" value="LATIN SMALL LETTER THORN WITH DIAGONAL STROKE"/>
           <mapping subtype="MUFI-PUA" type="codepoint">U+F149</mapping>
